@@ -6,6 +6,20 @@ A small, offline research tool for scoring **known profiles of the open SynthID-
 
 [Русская инструкция](README.ru.md) · [Algorithm](ALGORITHM.md) · [Research findings](KEY_SEARCH.md)
 
+## Download
+
+[Download the latest ZIP](https://github.com/kadyrbekovhamit-cyber/watermark-lab/releases/latest/download/watermark-lab.zip) · [Releases and checksums](https://github.com/kadyrbekovhamit-cyber/watermark-lab/releases)
+
+Extract the ZIP. Install Python 3.9+ if it is not already available. On macOS,
+run `start.command`; on Windows, run `start.bat`. Alternatively, open a terminal
+in the extracted directory and run `python3 -B launch.py` (Windows: `py -3 launch.py`).
+The launcher opens the local interface in your default browser. Keep its terminal
+open while using the app. If port 4548 is occupied, use `python3 -B launch.py --port 4549`.
+
+The ZIP contains source and scripts, not a standalone Python runtime or a signed
+native application. The Windows launcher is provided but has not been run on
+Windows in this project. The ordinary analysis modes stay offline.
+
 ## Run locally
 
 The application uses Python 3.9+ and the standard library. No model download, GPU or API key is needed.

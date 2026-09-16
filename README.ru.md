@@ -8,6 +8,15 @@
 
 Python 3.9 или новее; для самого приложения дополнительные библиотеки не нужны.
 
+[Скачать ZIP](https://github.com/kadyrbekovhamit-cyber/watermark-lab/releases/latest/download/watermark-lab.zip).
+Распакуйте архив. На macOS запустите `start.command`, на Windows — `start.bat`.
+Либо выполните из папки `python3 -B launch.py` (Windows: `py -3 launch.py`).
+Откроется локальная страница; оставьте терминал открытым. Это исходный код со
+скриптами запуска, без встроенного Python и подписи нативного приложения.
+Windows-скрипт подготовлен, но на Windows здесь не проверялся.
+
+Установка через Git:
+
 ```sh
 git clone https://github.com/kadyrbekovhamit-cyber/watermark-lab.git
 cd watermark-lab

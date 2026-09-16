@@ -28,6 +28,6 @@ Selecting the largest score from many trial keys creates selection bias. A candi
 
 Before model sampling, record a named model/version, date, endpoint, sampling parameters, query budget, stopping rule and matched controls. Use fresh synthetic prompts and retain raw outputs with their provenance. Reproduce the published deployment-detection test on a controlled model first, then evaluate the target under the same documented assumptions. Keep exact-key recovery and arbitrary-text detection as separate, unproven endpoints.
 
-This stage did not call a vendor model, submit an access request, search private credentials, or spend money. The repository publishes the reproducible reference scorer and its evidence. The next experiment needs suitable data or explicitly budgeted model access.
+The initial public-source search did not call a vendor model, submit an access request, search private credentials, or spend money. The next step is specified in [PROBE_PROTOCOL.md](PROBE_PROTOCOL.md): a bounded format/diversity pilot before any statistical deployment test. No usable live target-model answers or recovered keys have been obtained in this project. Ordinary tool use stays offline.
 
 Search queries and source URLs are preserved in [evidence/key-search-2026-09-16.json](evidence/key-search-2026-09-16.json). Our implemented arithmetic is documented in [ALGORITHM.md](ALGORITHM.md).
