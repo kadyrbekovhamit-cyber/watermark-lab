@@ -1,0 +1,2838 @@
+{
+  "schema": "conditional-choice-corpus-v1",
+  "choices": [
+    "101",
+    "211",
+    "307",
+    "419"
+  ],
+  "provenance": {
+    "kind": "synthetic",
+    "scenario": "reference_watermark",
+    "generator": "Finite-choice sampler using pinned SynthID arithmetic or explicit controls; not Claude",
+    "tokenizer_id": "synthetic-integer-vocabulary-1024-v1",
+    "context_seed": 81287,
+    "training_repetitions_per_group_cell": 128,
+    "validation_repetitions_per_group_cell": 256
+  },
+  "training": [
+    {
+      "context": "context-000",
+      "prefix": "prefix-0",
+      "group": "target",
+      "counts": [
+        12,
+        114,
+        0,
+        2
+      ]
+    },
+    {
+      "context": "context-000",
+      "prefix": "prefix-0",
+      "group": "control",
+      "counts": [
+        56,
+        44,
+        20,
+        8
+      ]
+    },
+    {
+      "context": "context-001",
+      "prefix": "prefix-0",
+      "group": "target",
+      "counts": [
+        86,
+        1,
+        41,
+        0
+      ]
+    },
+    {
+      "context": "context-001",
+      "prefix": "prefix-0",
+      "group": "control",
+      "counts": [
+        46,
+        48,
+        25,
+        9
+      ]
+    },
+    {
+      "context": "context-002",
+      "prefix": "prefix-0",
+      "group": "target",
+      "counts": [
+        63,
+        62,
+        0,
+        3
+      ]
+    },
+    {
+      "context": "context-002",
+      "prefix": "prefix-0",
+      "group": "control",
+      "counts": [
+        41,
+        38,
+        32,
+        17
+      ]
+    },
+    {
+      "context": "context-003",
+      "prefix": "prefix-0",
+      "group": "target",
+      "counts": [
+        6,
+        115,
+        2,
+        5
+      ]
+    },
+    {
+      "context": "context-003",
+      "prefix": "prefix-0",
+      "group": "control",
+      "counts": [
+        53,
+        43,
+        21,
+        11
+      ]
+    },
+    {
+      "context": "context-004",
+      "prefix": "prefix-0",
+      "group": "target",
+      "counts": [
+        4,
+        117,
+        0,
+        7
+      ]
+    },
+    {
+      "context": "context-004",
+      "prefix": "prefix-0",
+      "group": "control",
+      "counts": [
+        53,
+        36,
+        21,
+        18
+      ]
+    },
+    {
+      "context": "context-005",
+      "prefix": "prefix-0",
+      "group": "target",
+      "counts": [
+        41,
+        80,
+        2,
+        5
+      ]
+    },
+    {
+      "context": "context-005",
+      "prefix": "prefix-0",
+      "group": "control",
+      "counts": [
+        48,
+        38,
+        31,
+        11
+      ]
+    },
+    {
+      "context": "context-006",
+      "prefix": "prefix-0",
+      "group": "target",
+      "counts": [
+        125,
+        3,
+        0,
+        0
+      ]
+    },
+    {
+      "context": "context-006",
+      "prefix": "prefix-0",
+      "group": "control",
+      "counts": [
+        37,
+        42,
+        33,
+        16
+      ]
+    },
+    {
+      "context": "context-007",
+      "prefix": "prefix-0",
+      "group": "target",
+      "counts": [
+        117,
+        6,
+        0,
+        5
+      ]
+    },
+    {
+      "context": "context-007",
+      "prefix": "prefix-0",
+      "group": "control",
+      "counts": [
+        59,
+        29,
+        23,
+        17
+      ]
+    },
+    {
+      "context": "context-008",
+      "prefix": "prefix-0",
+      "group": "target",
+      "counts": [
+        0,
+        128,
+        0,
+        0
+      ]
+    },
+    {
+      "context": "context-008",
+      "prefix": "prefix-0",
+      "group": "control",
+      "counts": [
+        52,
+        47,
+        22,
+        7
+      ]
+    },
+    {
+      "context": "context-009",
+      "prefix": "prefix-0",
+      "group": "target",
+      "counts": [
+        3,
+        71,
+        35,
+        19
+      ]
+    },
+    {
+      "context": "context-009",
+      "prefix": "prefix-0",
+      "group": "control",
+      "counts": [
+        48,
+        41,
+        23,
+        16
+      ]
+    },
+    {
+      "context": "context-010",
+      "prefix": "prefix-0",
+      "group": "target",
+      "counts": [
+        88,
+        37,
+        0,
+        3
+      ]
+    },
+    {
+      "context": "context-010",
+      "prefix": "prefix-0",
+      "group": "control",
+      "counts": [
+        47,
+        38,
+        31,
+        12
+      ]
+    },
+    {
+      "context": "context-011",
+      "prefix": "prefix-0",
+      "group": "target",
+      "counts": [
+        72,
+        53,
+        0,
+        3
+      ]
+    },
+    {
+      "context": "context-011",
+      "prefix": "prefix-0",
+      "group": "control",
+      "counts": [
+        63,
+        30,
+        21,
+        14
+      ]
+    },
+    {
+      "context": "context-012",
+      "prefix": "prefix-0",
+      "group": "target",
+      "counts": [
+        34,
+        78,
+        9,
+        7
+      ]
+    },
+    {
+      "context": "context-012",
+      "prefix": "prefix-0",
+      "group": "control",
+      "counts": [
+        49,
+        38,
+        30,
+        11
+      ]
+    },
+    {
+      "context": "context-013",
+      "prefix": "prefix-0",
+      "group": "target",
+      "counts": [
+        8,
+        84,
+        36,
+        0
+      ]
+    },
+    {
+      "context": "context-013",
+      "prefix": "prefix-0",
+      "group": "control",
+      "counts": [
+        54,
+        39,
+        25,
+        10
+      ]
+    },
+    {
+      "context": "context-014",
+      "prefix": "prefix-0",
+      "group": "target",
+      "counts": [
+        12,
+        109,
+        7,
+        0
+      ]
+    },
+    {
+      "context": "context-014",
+      "prefix": "prefix-0",
+      "group": "control",
+      "counts": [
+        50,
+        39,
+        25,
+        14
+      ]
+    },
+    {
+      "context": "context-015",
+      "prefix": "prefix-0",
+      "group": "target",
+      "counts": [
+        72,
+        0,
+        56,
+        0
+      ]
+    },
+    {
+      "context": "context-015",
+      "prefix": "prefix-0",
+      "group": "control",
+      "counts": [
+        52,
+        37,
+        20,
+        19
+      ]
+    },
+    {
+      "context": "context-016",
+      "prefix": "prefix-0",
+      "group": "target",
+      "counts": [
+        105,
+        1,
+        22,
+        0
+      ]
+    },
+    {
+      "context": "context-016",
+      "prefix": "prefix-0",
+      "group": "control",
+      "counts": [
+        52,
+        31,
+        32,
+        13
+      ]
+    },
+    {
+      "context": "context-017",
+      "prefix": "prefix-0",
+      "group": "target",
+      "counts": [
+        15,
+        34,
+        19,
+        60
+      ]
+    },
+    {
+      "context": "context-017",
+      "prefix": "prefix-0",
+      "group": "control",
+      "counts": [
+        57,
+        39,
+        25,
+        7
+      ]
+    },
+    {
+      "context": "context-018",
+      "prefix": "prefix-0",
+      "group": "target",
+      "counts": [
+        38,
+        90,
+        0,
+        0
+      ]
+    },
+    {
+      "context": "context-018",
+      "prefix": "prefix-0",
+      "group": "control",
+      "counts": [
+        58,
+        33,
+        24,
+        13
+      ]
+    },
+    {
+      "context": "context-019",
+      "prefix": "prefix-0",
+      "group": "target",
+      "counts": [
+        0,
+        128,
+        0,
+        0
+      ]
+    },
+    {
+      "context": "context-019",
+      "prefix": "prefix-0",
+      "group": "control",
+      "counts": [
+        50,
+        32,
+        34,
+        12
+      ]
+    },
+    {
+      "context": "context-020",
+      "prefix": "prefix-0",
+      "group": "target",
+      "counts": [
+        48,
+        80,
+        0,
+        0
+      ]
+    },
+    {
+      "context": "context-020",
+      "prefix": "prefix-0",
+      "group": "control",
+      "counts": [
+        49,
+        41,
+        21,
+        17
+      ]
+    },
+    {
+      "context": "context-021",
+      "prefix": "prefix-0",
+      "group": "target",
+      "counts": [
+        0,
+        127,
+        1,
+        0
+      ]
+    },
+    {
+      "context": "context-021",
+      "prefix": "prefix-0",
+      "group": "control",
+      "counts": [
+        58,
+        30,
+        32,
+        8
+      ]
+    },
+    {
+      "context": "context-022",
+      "prefix": "prefix-0",
+      "group": "target",
+      "counts": [
+        7,
+        55,
+        61,
+        5
+      ]
+    },
+    {
+      "context": "context-022",
+      "prefix": "prefix-0",
+      "group": "control",
+      "counts": [
+        51,
+        39,
+        26,
+        12
+      ]
+    },
+    {
+      "context": "context-023",
+      "prefix": "prefix-0",
+      "group": "target",
+      "counts": [
+        11,
+        100,
+        3,
+        14
+      ]
+    },
+    {
+      "context": "context-023",
+      "prefix": "prefix-0",
+      "group": "control",
+      "counts": [
+        46,
+        36,
+        30,
+        16
+      ]
+    },
+    {
+      "context": "context-024",
+      "prefix": "prefix-0",
+      "group": "target",
+      "counts": [
+        62,
+        9,
+        20,
+        37
+      ]
+    },
+    {
+      "context": "context-024",
+      "prefix": "prefix-0",
+      "group": "control",
+      "counts": [
+        53,
+        39,
+        23,
+        13
+      ]
+    },
+    {
+      "context": "context-025",
+      "prefix": "prefix-0",
+      "group": "target",
+      "counts": [
+        100,
+        16,
+        11,
+        1
+      ]
+    },
+    {
+      "context": "context-025",
+      "prefix": "prefix-0",
+      "group": "control",
+      "counts": [
+        48,
+        42,
+        27,
+        11
+      ]
+    },
+    {
+      "context": "context-026",
+      "prefix": "prefix-0",
+      "group": "target",
+      "counts": [
+        41,
+        2,
+        59,
+        26
+      ]
+    },
+    {
+      "context": "context-026",
+      "prefix": "prefix-0",
+      "group": "control",
+      "counts": [
+        59,
+        38,
+        20,
+        11
+      ]
+    },
+    {
+      "context": "context-027",
+      "prefix": "prefix-0",
+      "group": "target",
+      "counts": [
+        119,
+        0,
+        9,
+        0
+      ]
+    },
+    {
+      "context": "context-027",
+      "prefix": "prefix-0",
+      "group": "control",
+      "counts": [
+        53,
+        39,
+        29,
+        7
+      ]
+    },
+    {
+      "context": "context-028",
+      "prefix": "prefix-0",
+      "group": "target",
+      "counts": [
+        1,
+        11,
+        116,
+        0
+      ]
+    },
+    {
+      "context": "context-028",
+      "prefix": "prefix-0",
+      "group": "control",
+      "counts": [
+        52,
+        31,
+        25,
+        20
+      ]
+    },
+    {
+      "context": "context-029",
+      "prefix": "prefix-0",
+      "group": "target",
+      "counts": [
+        2,
+        66,
+        59,
+        1
+      ]
+    },
+    {
+      "context": "context-029",
+      "prefix": "prefix-0",
+      "group": "control",
+      "counts": [
+        50,
+        43,
+        23,
+        12
+      ]
+    },
+    {
+      "context": "context-030",
+      "prefix": "prefix-0",
+      "group": "target",
+      "counts": [
+        77,
+        29,
+        2,
+        20
+      ]
+    },
+    {
+      "context": "context-030",
+      "prefix": "prefix-0",
+      "group": "control",
+      "counts": [
+        52,
+        43,
+        24,
+        9
+      ]
+    },
+    {
+      "context": "context-031",
+      "prefix": "prefix-0",
+      "group": "target",
+      "counts": [
+        22,
+        103,
+        3,
+        0
+      ]
+    },
+    {
+      "context": "context-031",
+      "prefix": "prefix-0",
+      "group": "control",
+      "counts": [
+        42,
+        42,
+        23,
+        21
+      ]
+    },
+    {
+      "context": "context-000",
+      "prefix": "prefix-1",
+      "group": "target",
+      "counts": [
+        1,
+        78,
+        1,
+        48
+      ]
+    },
+    {
+      "context": "context-000",
+      "prefix": "prefix-1",
+      "group": "control",
+      "counts": [
+        12,
+        29,
+        34,
+        53
+      ]
+    },
+    {
+      "context": "context-001",
+      "prefix": "prefix-1",
+      "group": "target",
+      "counts": [
+        16,
+        1,
+        109,
+        2
+      ]
+    },
+    {
+      "context": "context-001",
+      "prefix": "prefix-1",
+      "group": "control",
+      "counts": [
+        15,
+        25,
+        30,
+        58
+      ]
+    },
+    {
+      "context": "context-002",
+      "prefix": "prefix-1",
+      "group": "target",
+      "counts": [
+        7,
+        40,
+        2,
+        79
+      ]
+    },
+    {
+      "context": "context-002",
+      "prefix": "prefix-1",
+      "group": "control",
+      "counts": [
+        13,
+        23,
+        31,
+        61
+      ]
+    },
+    {
+      "context": "context-003",
+      "prefix": "prefix-1",
+      "group": "target",
+      "counts": [
+        0,
+        77,
+        1,
+        50
+      ]
+    },
+    {
+      "context": "context-003",
+      "prefix": "prefix-1",
+      "group": "control",
+      "counts": [
+        13,
+        29,
+        38,
+        48
+      ]
+    },
+    {
+      "context": "context-004",
+      "prefix": "prefix-1",
+      "group": "target",
+      "counts": [
+        2,
+        26,
+        0,
+        100
+      ]
+    },
+    {
+      "context": "context-004",
+      "prefix": "prefix-1",
+      "group": "control",
+      "counts": [
+        10,
+        27,
+        33,
+        58
+      ]
+    },
+    {
+      "context": "context-005",
+      "prefix": "prefix-1",
+      "group": "target",
+      "counts": [
+        5,
+        80,
+        17,
+        26
+      ]
+    },
+    {
+      "context": "context-005",
+      "prefix": "prefix-1",
+      "group": "control",
+      "counts": [
+        15,
+        23,
+        37,
+        53
+      ]
+    },
+    {
+      "context": "context-006",
+      "prefix": "prefix-1",
+      "group": "target",
+      "counts": [
+        67,
+        41,
+        2,
+        18
+      ]
+    },
+    {
+      "context": "context-006",
+      "prefix": "prefix-1",
+      "group": "control",
+      "counts": [
+        11,
+        30,
+        34,
+        53
+      ]
+    },
+    {
+      "context": "context-007",
+      "prefix": "prefix-1",
+      "group": "target",
+      "counts": [
+        26,
+        6,
+        2,
+        94
+      ]
+    },
+    {
+      "context": "context-007",
+      "prefix": "prefix-1",
+      "group": "control",
+      "counts": [
+        10,
+        21,
+        44,
+        53
+      ]
+    },
+    {
+      "context": "context-008",
+      "prefix": "prefix-1",
+      "group": "target",
+      "counts": [
+        1,
+        126,
+        0,
+        1
+      ]
+    },
+    {
+      "context": "context-008",
+      "prefix": "prefix-1",
+      "group": "control",
+      "counts": [
+        15,
+        22,
+        39,
+        52
+      ]
+    },
+    {
+      "context": "context-009",
+      "prefix": "prefix-1",
+      "group": "target",
+      "counts": [
+        0,
+        22,
+        41,
+        65
+      ]
+    },
+    {
+      "context": "context-009",
+      "prefix": "prefix-1",
+      "group": "control",
+      "counts": [
+        14,
+        23,
+        45,
+        46
+      ]
+    },
+    {
+      "context": "context-010",
+      "prefix": "prefix-1",
+      "group": "target",
+      "counts": [
+        33,
+        76,
+        5,
+        14
+      ]
+    },
+    {
+      "context": "context-010",
+      "prefix": "prefix-1",
+      "group": "control",
+      "counts": [
+        12,
+        24,
+        36,
+        56
+      ]
+    },
+    {
+      "context": "context-011",
+      "prefix": "prefix-1",
+      "group": "target",
+      "counts": [
+        10,
+        50,
+        4,
+        64
+      ]
+    },
+    {
+      "context": "context-011",
+      "prefix": "prefix-1",
+      "group": "control",
+      "counts": [
+        12,
+        26,
+        36,
+        54
+      ]
+    },
+    {
+      "context": "context-012",
+      "prefix": "prefix-1",
+      "group": "target",
+      "counts": [
+        2,
+        72,
+        8,
+        46
+      ]
+    },
+    {
+      "context": "context-012",
+      "prefix": "prefix-1",
+      "group": "control",
+      "counts": [
+        21,
+        21,
+        38,
+        48
+      ]
+    },
+    {
+      "context": "context-013",
+      "prefix": "prefix-1",
+      "group": "target",
+      "counts": [
+        1,
+        54,
+        73,
+        0
+      ]
+    },
+    {
+      "context": "context-013",
+      "prefix": "prefix-1",
+      "group": "control",
+      "counts": [
+        13,
+        29,
+        41,
+        45
+      ]
+    },
+    {
+      "context": "context-014",
+      "prefix": "prefix-1",
+      "group": "target",
+      "counts": [
+        0,
+        123,
+        4,
+        1
+      ]
+    },
+    {
+      "context": "context-014",
+      "prefix": "prefix-1",
+      "group": "control",
+      "counts": [
+        14,
+        21,
+        51,
+        42
+      ]
+    },
+    {
+      "context": "context-015",
+      "prefix": "prefix-1",
+      "group": "target",
+      "counts": [
+        10,
+        0,
+        117,
+        1
+      ]
+    },
+    {
+      "context": "context-015",
+      "prefix": "prefix-1",
+      "group": "control",
+      "counts": [
+        15,
+        16,
+        31,
+        66
+      ]
+    },
+    {
+      "context": "context-016",
+      "prefix": "prefix-1",
+      "group": "target",
+      "counts": [
+        56,
+        4,
+        65,
+        3
+      ]
+    },
+    {
+      "context": "context-016",
+      "prefix": "prefix-1",
+      "group": "control",
+      "counts": [
+        15,
+        20,
+        37,
+        56
+      ]
+    },
+    {
+      "context": "context-017",
+      "prefix": "prefix-1",
+      "group": "target",
+      "counts": [
+        0,
+        3,
+        5,
+        120
+      ]
+    },
+    {
+      "context": "context-017",
+      "prefix": "prefix-1",
+      "group": "control",
+      "counts": [
+        12,
+        29,
+        38,
+        49
+      ]
+    },
+    {
+      "context": "context-018",
+      "prefix": "prefix-1",
+      "group": "target",
+      "counts": [
+        13,
+        100,
+        2,
+        13
+      ]
+    },
+    {
+      "context": "context-018",
+      "prefix": "prefix-1",
+      "group": "control",
+      "counts": [
+        5,
+        27,
+        42,
+        54
+      ]
+    },
+    {
+      "context": "context-019",
+      "prefix": "prefix-1",
+      "group": "target",
+      "counts": [
+        2,
+        125,
+        0,
+        1
+      ]
+    },
+    {
+      "context": "context-019",
+      "prefix": "prefix-1",
+      "group": "control",
+      "counts": [
+        17,
+        21,
+        39,
+        51
+      ]
+    },
+    {
+      "context": "context-020",
+      "prefix": "prefix-1",
+      "group": "target",
+      "counts": [
+        13,
+        102,
+        12,
+        1
+      ]
+    },
+    {
+      "context": "context-020",
+      "prefix": "prefix-1",
+      "group": "control",
+      "counts": [
+        11,
+        23,
+        46,
+        48
+      ]
+    },
+    {
+      "context": "context-021",
+      "prefix": "prefix-1",
+      "group": "target",
+      "counts": [
+        0,
+        128,
+        0,
+        0
+      ]
+    },
+    {
+      "context": "context-021",
+      "prefix": "prefix-1",
+      "group": "control",
+      "counts": [
+        8,
+        29,
+        45,
+        46
+      ]
+    },
+    {
+      "context": "context-022",
+      "prefix": "prefix-1",
+      "group": "target",
+      "counts": [
+        0,
+        6,
+        111,
+        11
+      ]
+    },
+    {
+      "context": "context-022",
+      "prefix": "prefix-1",
+      "group": "control",
+      "counts": [
+        12,
+        28,
+        36,
+        52
+      ]
+    },
+    {
+      "context": "context-023",
+      "prefix": "prefix-1",
+      "group": "target",
+      "counts": [
+        0,
+        29,
+        4,
+        95
+      ]
+    },
+    {
+      "context": "context-023",
+      "prefix": "prefix-1",
+      "group": "control",
+      "counts": [
+        9,
+        28,
+        33,
+        58
+      ]
+    },
+    {
+      "context": "context-024",
+      "prefix": "prefix-1",
+      "group": "target",
+      "counts": [
+        7,
+        1,
+        14,
+        106
+      ]
+    },
+    {
+      "context": "context-024",
+      "prefix": "prefix-1",
+      "group": "control",
+      "counts": [
+        17,
+        27,
+        38,
+        46
+      ]
+    },
+    {
+      "context": "context-025",
+      "prefix": "prefix-1",
+      "group": "target",
+      "counts": [
+        19,
+        11,
+        69,
+        29
+      ]
+    },
+    {
+      "context": "context-025",
+      "prefix": "prefix-1",
+      "group": "control",
+      "counts": [
+        5,
+        28,
+        36,
+        59
+      ]
+    },
+    {
+      "context": "context-026",
+      "prefix": "prefix-1",
+      "group": "target",
+      "counts": [
+        0,
+        0,
+        58,
+        70
+      ]
+    },
+    {
+      "context": "context-026",
+      "prefix": "prefix-1",
+      "group": "control",
+      "counts": [
+        14,
+        24,
+        36,
+        54
+      ]
+    },
+    {
+      "context": "context-027",
+      "prefix": "prefix-1",
+      "group": "target",
+      "counts": [
+        40,
+        0,
+        56,
+        32
+      ]
+    },
+    {
+      "context": "context-027",
+      "prefix": "prefix-1",
+      "group": "control",
+      "counts": [
+        12,
+        21,
+        32,
+        63
+      ]
+    },
+    {
+      "context": "context-028",
+      "prefix": "prefix-1",
+      "group": "target",
+      "counts": [
+        0,
+        0,
+        115,
+        13
+      ]
+    },
+    {
+      "context": "context-028",
+      "prefix": "prefix-1",
+      "group": "control",
+      "counts": [
+        12,
+        27,
+        43,
+        46
+      ]
+    },
+    {
+      "context": "context-029",
+      "prefix": "prefix-1",
+      "group": "target",
+      "counts": [
+        0,
+        29,
+        97,
+        2
+      ]
+    },
+    {
+      "context": "context-029",
+      "prefix": "prefix-1",
+      "group": "control",
+      "counts": [
+        9,
+        33,
+        39,
+        47
+      ]
+    },
+    {
+      "context": "context-030",
+      "prefix": "prefix-1",
+      "group": "target",
+      "counts": [
+        12,
+        4,
+        1,
+        111
+      ]
+    },
+    {
+      "context": "context-030",
+      "prefix": "prefix-1",
+      "group": "control",
+      "counts": [
+        22,
+        25,
+        36,
+        45
+      ]
+    },
+    {
+      "context": "context-031",
+      "prefix": "prefix-1",
+      "group": "target",
+      "counts": [
+        2,
+        111,
+        14,
+        1
+      ]
+    },
+    {
+      "context": "context-031",
+      "prefix": "prefix-1",
+      "group": "control",
+      "counts": [
+        12,
+        29,
+        45,
+        42
+      ]
+    }
+  ],
+  "validation": [
+    {
+      "context": "context-000",
+      "prefix": "prefix-2",
+      "group": "target",
+      "counts": [
+        25,
+        96,
+        49,
+        86
+      ]
+    },
+    {
+      "context": "context-000",
+      "prefix": "prefix-2",
+      "group": "control",
+      "counts": [
+        76,
+        31,
+        94,
+        55
+      ]
+    },
+    {
+      "context": "context-001",
+      "prefix": "prefix-2",
+      "group": "target",
+      "counts": [
+        80,
+        0,
+        176,
+        0
+      ]
+    },
+    {
+      "context": "context-001",
+      "prefix": "prefix-2",
+      "group": "control",
+      "counts": [
+        63,
+        28,
+        117,
+        48
+      ]
+    },
+    {
+      "context": "context-002",
+      "prefix": "prefix-2",
+      "group": "target",
+      "counts": [
+        102,
+        62,
+        11,
+        81
+      ]
+    },
+    {
+      "context": "context-002",
+      "prefix": "prefix-2",
+      "group": "control",
+      "counts": [
+        86,
+        23,
+        90,
+        57
+      ]
+    },
+    {
+      "context": "context-003",
+      "prefix": "prefix-2",
+      "group": "target",
+      "counts": [
+        20,
+        128,
+        30,
+        78
+      ]
+    },
+    {
+      "context": "context-003",
+      "prefix": "prefix-2",
+      "group": "control",
+      "counts": [
+        70,
+        26,
+        102,
+        58
+      ]
+    },
+    {
+      "context": "context-004",
+      "prefix": "prefix-2",
+      "group": "target",
+      "counts": [
+        15,
+        63,
+        10,
+        168
+      ]
+    },
+    {
+      "context": "context-004",
+      "prefix": "prefix-2",
+      "group": "control",
+      "counts": [
+        77,
+        24,
+        104,
+        51
+      ]
+    },
+    {
+      "context": "context-005",
+      "prefix": "prefix-2",
+      "group": "target",
+      "counts": [
+        101,
+        75,
+        54,
+        26
+      ]
+    },
+    {
+      "context": "context-005",
+      "prefix": "prefix-2",
+      "group": "control",
+      "counts": [
+        78,
+        23,
+        98,
+        57
+      ]
+    },
+    {
+      "context": "context-006",
+      "prefix": "prefix-2",
+      "group": "target",
+      "counts": [
+        255,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "context": "context-006",
+      "prefix": "prefix-2",
+      "group": "control",
+      "counts": [
+        83,
+        21,
+        92,
+        60
+      ]
+    },
+    {
+      "context": "context-007",
+      "prefix": "prefix-2",
+      "group": "target",
+      "counts": [
+        213,
+        1,
+        0,
+        42
+      ]
+    },
+    {
+      "context": "context-007",
+      "prefix": "prefix-2",
+      "group": "control",
+      "counts": [
+        85,
+        15,
+        100,
+        56
+      ]
+    },
+    {
+      "context": "context-008",
+      "prefix": "prefix-2",
+      "group": "target",
+      "counts": [
+        20,
+        221,
+        12,
+        3
+      ]
+    },
+    {
+      "context": "context-008",
+      "prefix": "prefix-2",
+      "group": "control",
+      "counts": [
+        78,
+        24,
+        102,
+        52
+      ]
+    },
+    {
+      "context": "context-009",
+      "prefix": "prefix-2",
+      "group": "target",
+      "counts": [
+        0,
+        24,
+        177,
+        55
+      ]
+    },
+    {
+      "context": "context-009",
+      "prefix": "prefix-2",
+      "group": "control",
+      "counts": [
+        66,
+        35,
+        100,
+        55
+      ]
+    },
+    {
+      "context": "context-010",
+      "prefix": "prefix-2",
+      "group": "target",
+      "counts": [
+        210,
+        24,
+        7,
+        15
+      ]
+    },
+    {
+      "context": "context-010",
+      "prefix": "prefix-2",
+      "group": "control",
+      "counts": [
+        78,
+        21,
+        107,
+        50
+      ]
+    },
+    {
+      "context": "context-011",
+      "prefix": "prefix-2",
+      "group": "target",
+      "counts": [
+        133,
+        49,
+        38,
+        36
+      ]
+    },
+    {
+      "context": "context-011",
+      "prefix": "prefix-2",
+      "group": "control",
+      "counts": [
+        76,
+        24,
+        111,
+        45
+      ]
+    },
+    {
+      "context": "context-012",
+      "prefix": "prefix-2",
+      "group": "target",
+      "counts": [
+        68,
+        93,
+        36,
+        59
+      ]
+    },
+    {
+      "context": "context-012",
+      "prefix": "prefix-2",
+      "group": "control",
+      "counts": [
+        86,
+        19,
+        99,
+        52
+      ]
+    },
+    {
+      "context": "context-013",
+      "prefix": "prefix-2",
+      "group": "target",
+      "counts": [
+        9,
+        30,
+        217,
+        0
+      ]
+    },
+    {
+      "context": "context-013",
+      "prefix": "prefix-2",
+      "group": "control",
+      "counts": [
+        73,
+        29,
+        102,
+        52
+      ]
+    },
+    {
+      "context": "context-014",
+      "prefix": "prefix-2",
+      "group": "target",
+      "counts": [
+        41,
+        150,
+        64,
+        1
+      ]
+    },
+    {
+      "context": "context-014",
+      "prefix": "prefix-2",
+      "group": "control",
+      "counts": [
+        81,
+        16,
+        104,
+        55
+      ]
+    },
+    {
+      "context": "context-015",
+      "prefix": "prefix-2",
+      "group": "target",
+      "counts": [
+        46,
+        0,
+        210,
+        0
+      ]
+    },
+    {
+      "context": "context-015",
+      "prefix": "prefix-2",
+      "group": "control",
+      "counts": [
+        77,
+        26,
+        95,
+        58
+      ]
+    },
+    {
+      "context": "context-016",
+      "prefix": "prefix-2",
+      "group": "target",
+      "counts": [
+        175,
+        0,
+        81,
+        0
+      ]
+    },
+    {
+      "context": "context-016",
+      "prefix": "prefix-2",
+      "group": "control",
+      "counts": [
+        78,
+        27,
+        96,
+        55
+      ]
+    },
+    {
+      "context": "context-017",
+      "prefix": "prefix-2",
+      "group": "target",
+      "counts": [
+        7,
+        9,
+        48,
+        192
+      ]
+    },
+    {
+      "context": "context-017",
+      "prefix": "prefix-2",
+      "group": "control",
+      "counts": [
+        79,
+        23,
+        102,
+        52
+      ]
+    },
+    {
+      "context": "context-018",
+      "prefix": "prefix-2",
+      "group": "target",
+      "counts": [
+        120,
+        121,
+        3,
+        12
+      ]
+    },
+    {
+      "context": "context-018",
+      "prefix": "prefix-2",
+      "group": "control",
+      "counts": [
+        69,
+        26,
+        107,
+        54
+      ]
+    },
+    {
+      "context": "context-019",
+      "prefix": "prefix-2",
+      "group": "target",
+      "counts": [
+        6,
+        243,
+        7,
+        0
+      ]
+    },
+    {
+      "context": "context-019",
+      "prefix": "prefix-2",
+      "group": "control",
+      "counts": [
+        86,
+        29,
+        92,
+        49
+      ]
+    },
+    {
+      "context": "context-020",
+      "prefix": "prefix-2",
+      "group": "target",
+      "counts": [
+        126,
+        103,
+        27,
+        0
+      ]
+    },
+    {
+      "context": "context-020",
+      "prefix": "prefix-2",
+      "group": "control",
+      "counts": [
+        72,
+        26,
+        100,
+        58
+      ]
+    },
+    {
+      "context": "context-021",
+      "prefix": "prefix-2",
+      "group": "target",
+      "counts": [
+        33,
+        210,
+        11,
+        2
+      ]
+    },
+    {
+      "context": "context-021",
+      "prefix": "prefix-2",
+      "group": "control",
+      "counts": [
+        76,
+        32,
+        110,
+        38
+      ]
+    },
+    {
+      "context": "context-022",
+      "prefix": "prefix-2",
+      "group": "target",
+      "counts": [
+        2,
+        1,
+        248,
+        5
+      ]
+    },
+    {
+      "context": "context-022",
+      "prefix": "prefix-2",
+      "group": "control",
+      "counts": [
+        75,
+        29,
+        101,
+        51
+      ]
+    },
+    {
+      "context": "context-023",
+      "prefix": "prefix-2",
+      "group": "target",
+      "counts": [
+        37,
+        52,
+        44,
+        123
+      ]
+    },
+    {
+      "context": "context-023",
+      "prefix": "prefix-2",
+      "group": "control",
+      "counts": [
+        63,
+        35,
+        108,
+        50
+      ]
+    },
+    {
+      "context": "context-024",
+      "prefix": "prefix-2",
+      "group": "target",
+      "counts": [
+        61,
+        2,
+        67,
+        126
+      ]
+    },
+    {
+      "context": "context-024",
+      "prefix": "prefix-2",
+      "group": "control",
+      "counts": [
+        78,
+        20,
+        109,
+        49
+      ]
+    },
+    {
+      "context": "context-025",
+      "prefix": "prefix-2",
+      "group": "target",
+      "counts": [
+        100,
+        1,
+        137,
+        18
+      ]
+    },
+    {
+      "context": "context-025",
+      "prefix": "prefix-2",
+      "group": "control",
+      "counts": [
+        86,
+        22,
+        96,
+        52
+      ]
+    },
+    {
+      "context": "context-026",
+      "prefix": "prefix-2",
+      "group": "target",
+      "counts": [
+        21,
+        0,
+        181,
+        54
+      ]
+    },
+    {
+      "context": "context-026",
+      "prefix": "prefix-2",
+      "group": "control",
+      "counts": [
+        75,
+        21,
+        104,
+        56
+      ]
+    },
+    {
+      "context": "context-027",
+      "prefix": "prefix-2",
+      "group": "target",
+      "counts": [
+        169,
+        0,
+        78,
+        9
+      ]
+    },
+    {
+      "context": "context-027",
+      "prefix": "prefix-2",
+      "group": "control",
+      "counts": [
+        72,
+        33,
+        103,
+        48
+      ]
+    },
+    {
+      "context": "context-028",
+      "prefix": "prefix-2",
+      "group": "target",
+      "counts": [
+        0,
+        0,
+        256,
+        0
+      ]
+    },
+    {
+      "context": "context-028",
+      "prefix": "prefix-2",
+      "group": "control",
+      "counts": [
+        75,
+        16,
+        107,
+        58
+      ]
+    },
+    {
+      "context": "context-029",
+      "prefix": "prefix-2",
+      "group": "target",
+      "counts": [
+        2,
+        4,
+        248,
+        2
+      ]
+    },
+    {
+      "context": "context-029",
+      "prefix": "prefix-2",
+      "group": "control",
+      "counts": [
+        80,
+        21,
+        114,
+        41
+      ]
+    },
+    {
+      "context": "context-030",
+      "prefix": "prefix-2",
+      "group": "target",
+      "counts": [
+        162,
+        5,
+        4,
+        85
+      ]
+    },
+    {
+      "context": "context-030",
+      "prefix": "prefix-2",
+      "group": "control",
+      "counts": [
+        87,
+        29,
+        90,
+        50
+      ]
+    },
+    {
+      "context": "context-031",
+      "prefix": "prefix-2",
+      "group": "target",
+      "counts": [
+        71,
+        114,
+        69,
+        2
+      ]
+    },
+    {
+      "context": "context-031",
+      "prefix": "prefix-2",
+      "group": "control",
+      "counts": [
+        79,
+        26,
+        99,
+        52
+      ]
+    },
+    {
+      "context": "context-000",
+      "prefix": "prefix-3",
+      "group": "target",
+      "counts": [
+        1,
+        221,
+        0,
+        34
+      ]
+    },
+    {
+      "context": "context-000",
+      "prefix": "prefix-3",
+      "group": "control",
+      "counts": [
+        46,
+        109,
+        26,
+        75
+      ]
+    },
+    {
+      "context": "context-001",
+      "prefix": "prefix-3",
+      "group": "target",
+      "counts": [
+        145,
+        46,
+        58,
+        7
+      ]
+    },
+    {
+      "context": "context-001",
+      "prefix": "prefix-3",
+      "group": "control",
+      "counts": [
+        43,
+        112,
+        28,
+        73
+      ]
+    },
+    {
+      "context": "context-002",
+      "prefix": "prefix-3",
+      "group": "target",
+      "counts": [
+        33,
+        157,
+        0,
+        66
+      ]
+    },
+    {
+      "context": "context-002",
+      "prefix": "prefix-3",
+      "group": "control",
+      "counts": [
+        49,
+        120,
+        24,
+        63
+      ]
+    },
+    {
+      "context": "context-003",
+      "prefix": "prefix-3",
+      "group": "target",
+      "counts": [
+        0,
+        230,
+        0,
+        26
+      ]
+    },
+    {
+      "context": "context-003",
+      "prefix": "prefix-3",
+      "group": "control",
+      "counts": [
+        45,
+        103,
+        27,
+        81
+      ]
+    },
+    {
+      "context": "context-004",
+      "prefix": "prefix-3",
+      "group": "target",
+      "counts": [
+        7,
+        191,
+        0,
+        58
+      ]
+    },
+    {
+      "context": "context-004",
+      "prefix": "prefix-3",
+      "group": "control",
+      "counts": [
+        57,
+        96,
+        30,
+        73
+      ]
+    },
+    {
+      "context": "context-005",
+      "prefix": "prefix-3",
+      "group": "target",
+      "counts": [
+        20,
+        219,
+        5,
+        12
+      ]
+    },
+    {
+      "context": "context-005",
+      "prefix": "prefix-3",
+      "group": "control",
+      "counts": [
+        51,
+        93,
+        27,
+        85
+      ]
+    },
+    {
+      "context": "context-006",
+      "prefix": "prefix-3",
+      "group": "target",
+      "counts": [
+        146,
+        108,
+        0,
+        2
+      ]
+    },
+    {
+      "context": "context-006",
+      "prefix": "prefix-3",
+      "group": "control",
+      "counts": [
+        42,
+        119,
+        23,
+        72
+      ]
+    },
+    {
+      "context": "context-007",
+      "prefix": "prefix-3",
+      "group": "target",
+      "counts": [
+        107,
+        54,
+        0,
+        95
+      ]
+    },
+    {
+      "context": "context-007",
+      "prefix": "prefix-3",
+      "group": "control",
+      "counts": [
+        60,
+        103,
+        15,
+        78
+      ]
+    },
+    {
+      "context": "context-008",
+      "prefix": "prefix-3",
+      "group": "target",
+      "counts": [
+        0,
+        256,
+        0,
+        0
+      ]
+    },
+    {
+      "context": "context-008",
+      "prefix": "prefix-3",
+      "group": "control",
+      "counts": [
+        55,
+        102,
+        28,
+        71
+      ]
+    },
+    {
+      "context": "context-009",
+      "prefix": "prefix-3",
+      "group": "target",
+      "counts": [
+        0,
+        145,
+        3,
+        108
+      ]
+    },
+    {
+      "context": "context-009",
+      "prefix": "prefix-3",
+      "group": "control",
+      "counts": [
+        46,
+        102,
+        31,
+        77
+      ]
+    },
+    {
+      "context": "context-010",
+      "prefix": "prefix-3",
+      "group": "target",
+      "counts": [
+        60,
+        190,
+        0,
+        6
+      ]
+    },
+    {
+      "context": "context-010",
+      "prefix": "prefix-3",
+      "group": "control",
+      "counts": [
+        58,
+        105,
+        20,
+        73
+      ]
+    },
+    {
+      "context": "context-011",
+      "prefix": "prefix-3",
+      "group": "target",
+      "counts": [
+        39,
+        191,
+        1,
+        25
+      ]
+    },
+    {
+      "context": "context-011",
+      "prefix": "prefix-3",
+      "group": "control",
+      "counts": [
+        51,
+        110,
+        16,
+        79
+      ]
+    },
+    {
+      "context": "context-012",
+      "prefix": "prefix-3",
+      "group": "target",
+      "counts": [
+        4,
+        212,
+        3,
+        37
+      ]
+    },
+    {
+      "context": "context-012",
+      "prefix": "prefix-3",
+      "group": "control",
+      "counts": [
+        56,
+        95,
+        27,
+        78
+      ]
+    },
+    {
+      "context": "context-013",
+      "prefix": "prefix-3",
+      "group": "target",
+      "counts": [
+        4,
+        216,
+        36,
+        0
+      ]
+    },
+    {
+      "context": "context-013",
+      "prefix": "prefix-3",
+      "group": "control",
+      "counts": [
+        40,
+        95,
+        28,
+        93
+      ]
+    },
+    {
+      "context": "context-014",
+      "prefix": "prefix-3",
+      "group": "target",
+      "counts": [
+        1,
+        254,
+        1,
+        0
+      ]
+    },
+    {
+      "context": "context-014",
+      "prefix": "prefix-3",
+      "group": "control",
+      "counts": [
+        44,
+        109,
+        26,
+        77
+      ]
+    },
+    {
+      "context": "context-015",
+      "prefix": "prefix-3",
+      "group": "target",
+      "counts": [
+        156,
+        28,
+        65,
+        7
+      ]
+    },
+    {
+      "context": "context-015",
+      "prefix": "prefix-3",
+      "group": "control",
+      "counts": [
+        60,
+        90,
+        19,
+        87
+      ]
+    },
+    {
+      "context": "context-016",
+      "prefix": "prefix-3",
+      "group": "target",
+      "counts": [
+        197,
+        28,
+        26,
+        5
+      ]
+    },
+    {
+      "context": "context-016",
+      "prefix": "prefix-3",
+      "group": "control",
+      "counts": [
+        57,
+        97,
+        32,
+        70
+      ]
+    },
+    {
+      "context": "context-017",
+      "prefix": "prefix-3",
+      "group": "target",
+      "counts": [
+        0,
+        62,
+        6,
+        188
+      ]
+    },
+    {
+      "context": "context-017",
+      "prefix": "prefix-3",
+      "group": "control",
+      "counts": [
+        47,
+        112,
+        25,
+        72
+      ]
+    },
+    {
+      "context": "context-018",
+      "prefix": "prefix-3",
+      "group": "target",
+      "counts": [
+        15,
+        240,
+        0,
+        1
+      ]
+    },
+    {
+      "context": "context-018",
+      "prefix": "prefix-3",
+      "group": "control",
+      "counts": [
+        52,
+        108,
+        27,
+        69
+      ]
+    },
+    {
+      "context": "context-019",
+      "prefix": "prefix-3",
+      "group": "target",
+      "counts": [
+        0,
+        256,
+        0,
+        0
+      ]
+    },
+    {
+      "context": "context-019",
+      "prefix": "prefix-3",
+      "group": "control",
+      "counts": [
+        49,
+        104,
+        26,
+        77
+      ]
+    },
+    {
+      "context": "context-020",
+      "prefix": "prefix-3",
+      "group": "target",
+      "counts": [
+        25,
+        229,
+        2,
+        0
+      ]
+    },
+    {
+      "context": "context-020",
+      "prefix": "prefix-3",
+      "group": "control",
+      "counts": [
+        54,
+        104,
+        22,
+        76
+      ]
+    },
+    {
+      "context": "context-021",
+      "prefix": "prefix-3",
+      "group": "target",
+      "counts": [
+        0,
+        256,
+        0,
+        0
+      ]
+    },
+    {
+      "context": "context-021",
+      "prefix": "prefix-3",
+      "group": "control",
+      "counts": [
+        48,
+        102,
+        21,
+        85
+      ]
+    },
+    {
+      "context": "context-022",
+      "prefix": "prefix-3",
+      "group": "target",
+      "counts": [
+        9,
+        153,
+        60,
+        34
+      ]
+    },
+    {
+      "context": "context-022",
+      "prefix": "prefix-3",
+      "group": "control",
+      "counts": [
+        44,
+        103,
+        27,
+        82
+      ]
+    },
+    {
+      "context": "context-023",
+      "prefix": "prefix-3",
+      "group": "target",
+      "counts": [
+        0,
+        169,
+        0,
+        87
+      ]
+    },
+    {
+      "context": "context-023",
+      "prefix": "prefix-3",
+      "group": "control",
+      "counts": [
+        53,
+        98,
+        32,
+        73
+      ]
+    },
+    {
+      "context": "context-024",
+      "prefix": "prefix-3",
+      "group": "target",
+      "counts": [
+        31,
+        17,
+        11,
+        197
+      ]
+    },
+    {
+      "context": "context-024",
+      "prefix": "prefix-3",
+      "group": "control",
+      "counts": [
+        54,
+        102,
+        28,
+        72
+      ]
+    },
+    {
+      "context": "context-025",
+      "prefix": "prefix-3",
+      "group": "target",
+      "counts": [
+        123,
+        94,
+        20,
+        19
+      ]
+    },
+    {
+      "context": "context-025",
+      "prefix": "prefix-3",
+      "group": "control",
+      "counts": [
+        43,
+        105,
+        24,
+        84
+      ]
+    },
+    {
+      "context": "context-026",
+      "prefix": "prefix-3",
+      "group": "target",
+      "counts": [
+        20,
+        3,
+        56,
+        177
+      ]
+    },
+    {
+      "context": "context-026",
+      "prefix": "prefix-3",
+      "group": "control",
+      "counts": [
+        58,
+        111,
+        18,
+        69
+      ]
+    },
+    {
+      "context": "context-027",
+      "prefix": "prefix-3",
+      "group": "target",
+      "counts": [
+        172,
+        6,
+        24,
+        54
+      ]
+    },
+    {
+      "context": "context-027",
+      "prefix": "prefix-3",
+      "group": "control",
+      "counts": [
+        44,
+        107,
+        29,
+        76
+      ]
+    },
+    {
+      "context": "context-028",
+      "prefix": "prefix-3",
+      "group": "target",
+      "counts": [
+        3,
+        80,
+        90,
+        83
+      ]
+    },
+    {
+      "context": "context-028",
+      "prefix": "prefix-3",
+      "group": "control",
+      "counts": [
+        50,
+        117,
+        26,
+        63
+      ]
+    },
+    {
+      "context": "context-029",
+      "prefix": "prefix-3",
+      "group": "target",
+      "counts": [
+        0,
+        222,
+        32,
+        2
+      ]
+    },
+    {
+      "context": "context-029",
+      "prefix": "prefix-3",
+      "group": "control",
+      "counts": [
+        59,
+        95,
+        32,
+        70
+      ]
+    },
+    {
+      "context": "context-030",
+      "prefix": "prefix-3",
+      "group": "target",
+      "counts": [
+        61,
+        69,
+        1,
+        125
+      ]
+    },
+    {
+      "context": "context-030",
+      "prefix": "prefix-3",
+      "group": "control",
+      "counts": [
+        49,
+        91,
+        31,
+        85
+      ]
+    },
+    {
+      "context": "context-031",
+      "prefix": "prefix-3",
+      "group": "target",
+      "counts": [
+        8,
+        248,
+        0,
+        0
+      ]
+    },
+    {
+      "context": "context-031",
+      "prefix": "prefix-3",
+      "group": "control",
+      "counts": [
+        49,
+        98,
+        30,
+        79
+      ]
+    }
+  ]
+}

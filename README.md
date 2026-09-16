@@ -4,7 +4,7 @@ A small, offline research tool for scoring **known profiles of the open SynthID-
 
 **No production Claude key has been recovered. This project cannot verify whether arbitrary text contains Claude's watermark.** See the dated [key-search report](KEY_SEARCH.md) for the evidence and the next research step.
 
-[Русская инструкция](README.ru.md) · [Algorithm](ALGORITHM.md) · [Research findings](KEY_SEARCH.md)
+[Русская инструкция](README.ru.md) · [Algorithm](ALGORITHM.md) · [Research findings](KEY_SEARCH.md) · [Learning from counts](PREFERENCE_LEARNING.md)
 
 ## Download
 
@@ -58,6 +58,11 @@ The scorer matched **2,072 reference g-bits** across 259 n-grams, plus a masked-
 
 ## CLI and inputs
 
+New in v0.2.0: an offline [conditional-preference experiment](PREFERENCE_LEARNING.md)
+learns from up to 16,384 synthetic training observations without receiving the
+generator key. It includes held-out validation and a non-watermark counterexample.
+This separate CLI module does not classify Claude or recover its key.
+
 ```sh
 python3 -B watermark_lab.py text document.txt
 python3 -B watermark_lab.py tokens evidence/demo-marked_correct_key.json
@@ -95,11 +100,11 @@ NumPy is needed only for the reference comparison and experiment, not for runnin
 python3 -m venv .venv
 . .venv/bin/activate
 python3 -m pip install -r requirements-test.txt
-OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 python3 -B -m unittest -v test_watermark_lab.py
+OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 python3 -B -m unittest -v test_watermark_lab.py test_preference_probe.py
 node --check web/app.js
 ```
 
-The 25 tests cover arithmetic agreement, repeated contexts, EOS, validation, calibration, HTTP handling and preservation of the unavailable Claude verdict. Node is optional for the JavaScript syntax check.
+The 36 tests cover arithmetic agreement, repeated contexts, EOS, validation, calibration, HTTP handling, conditional learning, split leakage, abstention and preservation of the unavailable Claude verdict. Node is optional for the JavaScript syntax check.
 
 Reproduce the bounded synthetic benchmark with `python3 -B validate.py`. It runs sequentially and rewrites its generated evidence files. There are no model or vendor calls.
 

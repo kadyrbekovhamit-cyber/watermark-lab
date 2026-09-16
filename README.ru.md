@@ -35,6 +35,11 @@ python3 -B server.py --port 4548
 
 ## Командная строка и формат
 
+В v0.2.0 добавлен отдельный [опыт с обучением по частотам](PREFERENCE_LEARNING.ru.md):
+до 16 384 синтетических наблюдений, проверка на отдельной выборке и контроль,
+показывающий обычное предпочтение без метки. Ключ генератора обучающейся части
+не передаётся. Это исследовательский CLI-модуль; ключ Claude не восстановлен.
+
 ```sh
 python3 -B watermark_lab.py text document.txt
 python3 -B watermark_lab.py tokens evidence/demo-marked_correct_key.json
@@ -77,7 +82,7 @@ python3 -B watermark_lab.py tokens evidence/demo-marked_correct_key.json
 Арифметика хеширования и g-оценок совпала с 2072 двоичными результатами закреплённого кода DeepMind; проверено и маскированное среднее. Проверка исполняет тела трёх исходных функций через небольшой NumPy-адаптер, а не весь стек PyTorch и не модель. Исходный код и контрольные суммы сохранены в `reference/SOURCE_LOCK.json`; лицензия и изменения описаны в `NOTICE`.
 
 ```sh
-OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 python3 -B -m unittest -v test_watermark_lab.py
+OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 python3 -B -m unittest -v test_watermark_lab.py test_preference_probe.py
 ```
 
 Для теста сравнения и повторного исследования нужен установленный NumPy. Полный синтетический опыт повторяется командой `python3 -B validate.py`; вычисления выполняются последовательно. Сырые результаты всех 300 образцов — `evidence/benchmark.json`, журнал тестов — `evidence/unit-tests.log`.
