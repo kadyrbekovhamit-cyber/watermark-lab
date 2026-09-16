@@ -1,0 +1,25 @@
+name: Tests
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      OMP_NUM_THREADS: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+      VECLIB_MAXIMUM_THREADS: '1'
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: '3.11'
+      - run: python -m pip install -r requirements-test.txt
+      - run: python -B -m unittest -v test_watermark_lab.py
+      - run: node --check web/app.js
+      - name: Verify CLI fixture
+        run: |
+          python -B watermark_lab.py tokens evidence/demo-marked_correct_key.json > /tmp/watermark-cli.json
+          python -c "import json; r=json.load(open('/tmp/watermark-cli.json')); assert r['status']=='reference_signal_detected'; assert r['claude_status']=='unavailable'"

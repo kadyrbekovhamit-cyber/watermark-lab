@@ -1,0 +1,3 @@
+# Reference-parity environment used for the published local results.
+# Python 3.9-3.11. The application itself has no third-party dependencies.
+numpy==1.23.5

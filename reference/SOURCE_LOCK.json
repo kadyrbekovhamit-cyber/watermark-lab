@@ -1,0 +1,48 @@
+{
+  "repository": "google-deepmind/synthid-text",
+  "commit": "addb4a158143c7c6851a1308f78b89fceed59683",
+  "files": [
+    {
+      "upstream_path": "LICENSE",
+      "local_path": "reference/LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "bytes": 11358,
+      "url": "https://raw.githubusercontent.com/google-deepmind/synthid-text/addb4a158143c7c6851a1308f78b89fceed59683/LICENSE"
+    },
+    {
+      "upstream_path": "src/synthid_text/hashing_function.py",
+      "local_path": "reference/hashing_function.py",
+      "sha256": "6900000b03d6275347396d495d1118c64a16537a64c05fdec0868b623d1a34ab",
+      "bytes": 1682,
+      "url": "https://raw.githubusercontent.com/google-deepmind/synthid-text/addb4a158143c7c6851a1308f78b89fceed59683/src/synthid_text/hashing_function.py"
+    },
+    {
+      "upstream_path": "src/synthid_text/logits_processing.py",
+      "local_path": "reference/logits_processing.py",
+      "sha256": "88bd1c20e2fea72356980548fc4cfa82c2ca1a2059ecb2deb1e3efa38be76294",
+      "bytes": 17853,
+      "url": "https://raw.githubusercontent.com/google-deepmind/synthid-text/addb4a158143c7c6851a1308f78b89fceed59683/src/synthid_text/logits_processing.py"
+    },
+    {
+      "upstream_path": "src/synthid_text/logits_processing_test.py",
+      "local_path": "reference/logits_processing_test.py",
+      "sha256": "6c04cde3bae3ce61e45986886de5de7a6543662f1b3ce57dfb656ad58cc4e837",
+      "bytes": 13380,
+      "url": "https://raw.githubusercontent.com/google-deepmind/synthid-text/addb4a158143c7c6851a1308f78b89fceed59683/src/synthid_text/logits_processing_test.py"
+    },
+    {
+      "upstream_path": "src/synthid_text/detector_mean.py",
+      "local_path": "reference/detector_mean.py",
+      "sha256": "584f12aa376e9106e6e6d4dd8bf3d5572c04996c844ffddeff37e1a1a15680f9",
+      "bytes": 2700,
+      "url": "https://raw.githubusercontent.com/google-deepmind/synthid-text/addb4a158143c7c6851a1308f78b89fceed59683/src/synthid_text/detector_mean.py"
+    },
+    {
+      "upstream_path": "src/synthid_text/g_value_expectations.py",
+      "local_path": "reference/g_value_expectations.py",
+      "sha256": "6a3a08d1fb11455404ca277942344138a476fe4a5a152eec88a019a7f8c9a595",
+      "bytes": 1863,
+      "url": "https://raw.githubusercontent.com/google-deepmind/synthid-text/addb4a158143c7c6851a1308f78b89fceed59683/src/synthid_text/g_value_expectations.py"
+    }
+  ]
+}

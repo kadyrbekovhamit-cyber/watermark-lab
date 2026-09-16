@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Watermark Lab — метка в словах</title>
+  <link rel="stylesheet" href="/style.css"><script src="/app.js" defer></script>
+</head>
+<body>
+<main>
+  <header><a class="brand" href="/">W / LAB</a><span class="local">Локально · без передачи текста внешним сервисам</span></header>
+  <section class="intro"><p class="eyebrow">ИССЛЕДОВАНИЕ ПРОИСХОЖДЕНИЯ ТЕКСТА</p>
+    <h1>Метка в словах.</h1><p class="lead">Проверка открытой схемы SynthID-Text с известным ключом. Разбор текста — с ясными границами вывода.</p>
+  </section>
+  <aside class="vendor"><span class="dot"></span><div><strong>Проверка метки Claude пока недоступна</strong><p>Ключ и точные настройки Claude не опубликованы. Официальный детектор находится в закрытом предварительном доступе. Этот инструмент не выдаёт процент «написано Claude».</p></div></aside>
+  <nav class="tabs" aria-label="Режим проверки">
+    <button class="tab selected" data-panel="text-panel" aria-selected="true">Ваш текст</button>
+    <button class="tab" data-panel="demo-panel" aria-selected="false">Контрольный эксперимент</button>
+    <button class="tab" data-panel="tokens-panel" aria-selected="false">Известный профиль</button>
+  </nav>
+  <section id="text-panel" class="panel">
+    <div class="section-title"><h2>Что можно установить по тексту</h2><label class="file-button">Открыть .txt / .md<input id="text-file" type="file" accept=".txt,.md,text/plain,text/markdown"></label></div>
+    <label for="text-input">Вставьте текст. Он останется в памяти локального инструмента.</label>
+    <textarea id="text-input" rows="9" maxlength="100000" placeholder="Исходный текст для проверки…"></textarea>
+    <div class="actions"><button id="analyze" class="primary">Проверить доступные признаки</button><span id="count">0 символов</span></div>
+    <p class="hint">Проверка покажет объём и невидимые Unicode-символы. Такие символы встречаются и в обычном тексте; это не свидетельство использования ИИ. Исходный текст не изменяется.</p>
+  </section>
+  <section id="demo-panel" class="panel" hidden>
+    <h2>Одинаковый детектор. Три источника токенов.</h2>
+    <p>Искусственные последовательности по 128 токенов. Это контрольные данные нашего генератора, не ответы Claude. Проверка использует 8 публичных демонстрационных ключей и отдельную выборку из 199 примеров без метки.</p>
+    <div class="demo-grid">
+      <button class="demo-card" data-demo="marked_correct_key"><span class="number">01</span><strong>Знакомая метка</strong><span>Генератор и детектор используют один ключ.</span></button>
+      <button class="demo-card" data-demo="unmarked"><span class="number">02</span><strong>Без метки</strong><span>Обычная случайная последовательность.</span></button>
+      <button class="demo-card" data-demo="marked_other_key"><span class="number">03</span><strong>Другая метка</strong><span>Генератор использует другой набор ключей.</span></button>
+    </div>
+    <p class="hint">Отрицательный результат третьего теста не означает, что метки нет. Детектор ищет только сигнал своего профиля.</p>
+  </section>
+  <section id="tokens-panel" class="panel" hidden>
+    <h2>Проверка экспортированных токенов</h2>
+    <p>Загрузите JSON с <code>token_ids</code>, <code>tokenizer_id</code>, <code>profile</code> и, при наличии, <code>calibration</code>. Нужны точный токенизатор и совместимый профиль генератора. Поддерживается только зафиксированная открытая реализация; профиля Claude здесь нет.</p>
+    <label for="token-file">Файл с токенами и известным профилем</label><input id="token-file" type="file" accept=".json,application/json">
+    <p class="hint">Без подходящей контрольной выборки будет показан балл, без заключения об обнаружении. Формат и пример — в README.md и evidence/.</p>
+  </section>
+  <p id="error" class="error" role="alert" hidden></p>
+  <section id="result" class="result" aria-live="polite" hidden>
+    <div class="section-title"><h2 id="result-title"></h2><button id="export" class="secondary">Скачать отчёт JSON</button></div>
+    <p id="result-summary"></p><div id="metrics" class="metrics"></div>
+    <div id="trace-section" hidden><h3>Оценка последовательных токенов</h3><p class="hint">Высота столбика — средний g-балл токена по ключам. Серые столбики исключены как повторный контекст. Это не вероятность авторства.</p><div id="trace" class="trace"></div></div>
+    <div id="unicode-section" hidden><h3>Невидимые и специальные символы</h3><ul id="unicode-list"></ul></div>
+    <p id="result-limit" class="result-limit"></p>
+  </section>
+  <section class="explanation"><h2>Как устроена проверка</h2><div class="steps">
+    <article><span>1</span><h3>Контекст + ключ</h3><p>Короткая последовательность токенов и ключ определяют двоичные g-оценки.</p></article>
+    <article><span>2</span><h3>Выбор следующего токена</h3><p>Генератор меняет распределение допустимых вариантов. В тексте накапливается статистический сигнал.</p></article>
+    <article><span>3</span><h3>Проверка по тому же профилю</h3><p>Детектор пересчитывает оценки и сопоставляет балл с независимой выборкой без метки.</p></article>
+  </div></section>
+  <footer><span>Watermark Lab 0.1 · исследовательский прототип</span><div><a href="https://www.anthropic.com/news/claude-text-watermark" target="_blank" rel="noopener noreferrer">Описание Claude</a><a href="https://github.com/google-deepmind/synthid-text" target="_blank" rel="noopener noreferrer">Исходный алгоритм</a></div></footer>
+</main></body></html>

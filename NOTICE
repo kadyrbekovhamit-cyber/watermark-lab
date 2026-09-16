@@ -1,0 +1,12 @@
+Watermark Lab
+Copyright 2026 Watermark Lab contributors.
+
+Includes a scalar adaptation of arithmetic from SynthID Text.
+Copyright 2024 DeepMind Technologies Limited.
+Licensed under the Apache License, Version 2.0 (reference/LICENSE).
+Upstream source and file hashes: reference/SOURCE_LOCK.json.
+
+Modifications: pure Python signed-int64 arithmetic, explicit little-endian profile,
+single-sequence scoring, strict profile/input validation, bounded trace, empirical
+calibration checks, local UI and explicit unavailable Claude status.
+The application is independent and is not endorsed by Anthropic or Google.

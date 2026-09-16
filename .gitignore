@@ -1,0 +1,17 @@
+# Local handoff, credentials, user inputs and temporary files are not publications.
+AGENTS.md
+PROJECT_STATE.md
+operations/
+private/
+submissions/
+*.log
+*.key
+*.pem
+.env
+.env.*
+__pycache__/
+*.py[cod]
+.venv/
+.DS_Store
+.pytest_cache/
+evidence/cli-smoke.json

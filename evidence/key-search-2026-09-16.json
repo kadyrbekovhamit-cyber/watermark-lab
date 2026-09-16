@@ -1,0 +1,22 @@
+{
+  "checked_date": "2026-09-16",
+  "result": "no_verified_production_claude_key_found_in_reviewed_sources",
+  "claude_key_recovered": false,
+  "vendor_model_queries": 0,
+  "paid_calls": 0,
+  "queries": [
+    "Claude SynthID watermark secret key recovered github",
+    "SynthID Text watermark key recovery watermark stealing Claude research",
+    "\"Claude\" \"watermark\" \"key recovered\" github",
+    "\"Claude\" \"SynthID\" \"secret key\" \"released\" github"
+  ],
+  "sources": [
+    "https://www.anthropic.com/news/claude-text-watermark",
+    "https://github.com/google-deepmind/synthid-text/tree/addb4a158143c7c6851a1308f78b89fceed59683",
+    "https://www.sri.inf.ethz.ch/blog/probingsynthid",
+    "https://www.sri.inf.ethz.ch/publications/gloaguen2024detectingwatermarks",
+    "https://www.sri.inf.ethz.ch/publications/jovanovic2024watermarkstealing",
+    "https://github.com/natzir/synthid-text-watermark-attacks"
+  ],
+  "limitation": "A bounded public-source search is not proof of universal absence. Public demo keys are not provider secrets; deployment detection is not arbitrary-document attribution or exact key recovery."
+}

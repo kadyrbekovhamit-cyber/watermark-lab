@@ -1,0 +1,1141 @@
+{
+  "kind": "unmarked",
+  "source": "synthetic sampler, not Claude",
+  "payload": {
+    "token_ids": [
+      894,
+      755,
+      591,
+      802,
+      311,
+      508,
+      228,
+      742,
+      930,
+      890,
+      766,
+      478,
+      19,
+      979,
+      971,
+      593,
+      362,
+      466,
+      533,
+      660,
+      903,
+      718,
+      390,
+      785,
+      189,
+      837,
+      512,
+      567,
+      971,
+      152,
+      282,
+      986,
+      580,
+      757,
+      306,
+      250,
+      900,
+      947,
+      349,
+      891,
+      493,
+      408,
+      304,
+      215,
+      9,
+      571,
+      431,
+      458,
+      956,
+      99,
+      365,
+      898,
+      103,
+      320,
+      952,
+      688,
+      312,
+      695,
+      175,
+      717,
+      695,
+      944,
+      594,
+      35,
+      16,
+      17,
+      930,
+      733,
+      297,
+      486,
+      822,
+      195,
+      34,
+      165,
+      993,
+      169,
+      423,
+      584,
+      604,
+      551,
+      117,
+      847,
+      481,
+      487,
+      657,
+      590,
+      637,
+      224,
+      913,
+      684,
+      460,
+      164,
+      167,
+      488,
+      913,
+      992,
+      680,
+      589,
+      395,
+      166,
+      908,
+      106,
+      46,
+      1013,
+      1014,
+      622,
+      797,
+      515,
+      250,
+      893,
+      194,
+      454,
+      91,
+      679,
+      648,
+      209,
+      830,
+      1023,
+      17,
+      71,
+      246,
+      602,
+      822,
+      933,
+      207,
+      261,
+      907,
+      602
+    ],
+    "profile": {
+      "algorithm": "deepmind-synthid-addb4a15-int64-le-v1",
+      "keys": [
+        17,
+        263,
+        1021,
+        4099,
+        8191,
+        16381,
+        32749,
+        65521
+      ],
+      "ngram_len": 5,
+      "context_history_size": 1024,
+      "tokenizer_id": "synthetic-uniform-1024-v1"
+    },
+    "tokenizer_id": "synthetic-uniform-1024-v1",
+    "calibration": {
+      "profile_fingerprint": "d32694a9a8afbe87e9ea4368e0e8d53f2f3521361cfbc1cf056866a0fe54720b",
+      "tokenizer_id": "synthetic-uniform-1024-v1",
+      "scored_contexts": 124,
+      "input_tokens": 128,
+      "null_scores": [
+        0.5,
+        0.53125,
+        0.49294354838709675,
+        0.48185483870967744,
+        0.4909274193548387,
+        0.48689516129032256,
+        0.4909274193548387,
+        0.501008064516129,
+        0.48286290322580644,
+        0.4889112903225806,
+        0.5050403225806451,
+        0.5040322580645161,
+        0.5100806451612904,
+        0.4909274193548387,
+        0.5070564516129032,
+        0.4737903225806452,
+        0.5161290322580645,
+        0.5030241935483871,
+        0.4899193548387097,
+        0.4969758064516129,
+        0.5070564516129032,
+        0.49294354838709675,
+        0.5292338709677419,
+        0.5,
+        0.5181451612903226,
+        0.47076612903225806,
+        0.5,
+        0.46673387096774194,
+        0.5060483870967742,
+        0.5110887096774194,
+        0.4939516129032258,
+        0.5221774193548387,
+        0.5020161290322581,
+        0.4889112903225806,
+        0.5151209677419355,
+        0.530241935483871,
+        0.4909274193548387,
+        0.5090725806451613,
+        0.48689516129032256,
+        0.4969758064516129,
+        0.5131048387096774,
+        0.5,
+        0.49899193548387094,
+        0.4899193548387097,
+        0.5030241935483871,
+        0.5171370967741935,
+        0.4879032258064516,
+        0.4848790322580645,
+        0.5060483870967742,
+        0.48588709677419356,
+        0.49899193548387094,
+        0.5040322580645161,
+        0.4939516129032258,
+        0.5201612903225806,
+        0.5050403225806451,
+        0.4939516129032258,
+        0.48689516129032256,
+        0.5191532258064516,
+        0.4596774193548387,
+        0.5090725806451613,
+        0.4969758064516129,
+        0.5020161290322581,
+        0.46975806451612906,
+        0.5,
+        0.4949596774193548,
+        0.49294354838709675,
+        0.5030241935483871,
+        0.48286290322580644,
+        0.5131048387096774,
+        0.46975806451612906,
+        0.49193548387096775,
+        0.5231854838709677,
+        0.5050403225806451,
+        0.4969758064516129,
+        0.5050403225806451,
+        0.5080645161290323,
+        0.5030241935483871,
+        0.49294354838709675,
+        0.5161290322580645,
+        0.5110887096774194,
+        0.5,
+        0.4778225806451613,
+        0.5070564516129032,
+        0.5161290322580645,
+        0.4959677419354839,
+        0.4788306451612903,
+        0.49899193548387094,
+        0.47580645161290325,
+        0.4848790322580645,
+        0.5070564516129032,
+        0.5060483870967742,
+        0.5050403225806451,
+        0.4747983870967742,
+        0.4899193548387097,
+        0.49798387096774194,
+        0.5272177419354839,
+        0.4959677419354839,
+        0.49193548387096775,
+        0.48185483870967744,
+        0.4909274193548387,
+        0.5231854838709677,
+        0.5070564516129032,
+        0.5080645161290323,
+        0.48689516129032256,
+        0.4939516129032258,
+        0.48185483870967744,
+        0.5362903225806451,
+        0.49294354838709675,
+        0.49193548387096775,
+        0.5080645161290323,
+        0.48689516129032256,
+        0.49899193548387094,
+        0.4939516129032258,
+        0.5040322580645161,
+        0.5020161290322581,
+        0.49798387096774194,
+        0.5050403225806451,
+        0.5151209677419355,
+        0.4808467741935484,
+        0.4899193548387097,
+        0.4899193548387097,
+        0.5221774193548387,
+        0.4949596774193548,
+        0.48185483870967744,
+        0.4969758064516129,
+        0.5070564516129032,
+        0.4747983870967742,
+        0.4889112903225806,
+        0.49294354838709675,
+        0.4909274193548387,
+        0.5131048387096774,
+        0.47681451612903225,
+        0.5201612903225806,
+        0.4879032258064516,
+        0.4969758064516129,
+        0.5161290322580645,
+        0.4808467741935484,
+        0.5151209677419355,
+        0.5252016129032258,
+        0.5040322580645161,
+        0.5181451612903226,
+        0.5080645161290323,
+        0.5100806451612904,
+        0.49193548387096775,
+        0.5,
+        0.4889112903225806,
+        0.5050403225806451,
+        0.501008064516129,
+        0.5060483870967742,
+        0.48588709677419356,
+        0.5181451612903226,
+        0.5040322580645161,
+        0.5040322580645161,
+        0.5070564516129032,
+        0.5030241935483871,
+        0.4949596774193548,
+        0.46774193548387094,
+        0.5332661290322581,
+        0.49899193548387094,
+        0.5151209677419355,
+        0.49899193548387094,
+        0.4848790322580645,
+        0.5090725806451613,
+        0.5060483870967742,
+        0.5131048387096774,
+        0.5110887096774194,
+        0.49899193548387094,
+        0.48588709677419356,
+        0.49193548387096775,
+        0.5120967741935484,
+        0.5201612903225806,
+        0.46875,
+        0.5110887096774194,
+        0.4647177419354839,
+        0.5090725806451613,
+        0.5070564516129032,
+        0.5231854838709677,
+        0.5080645161290323,
+        0.48588709677419356,
+        0.5,
+        0.5070564516129032,
+        0.5050403225806451,
+        0.5030241935483871,
+        0.4909274193548387,
+        0.5282258064516129,
+        0.5272177419354839,
+        0.4788306451612903,
+        0.5040322580645161,
+        0.4889112903225806,
+        0.5393145161290323,
+        0.4727822580645161,
+        0.49193548387096775,
+        0.5100806451612904,
+        0.4788306451612903,
+        0.5282258064516129,
+        0.4637096774193548,
+        0.49899193548387094,
+        0.4949596774193548,
+        0.4959677419354839
+      ],
+      "population": "Synthetic IID uniform integer tokens in [0,1023], length 128; seed range 10000:10199",
+      "seed_range": [
+        10000,
+        10199
+      ],
+      "not_real_language_calibration": true
+    }
+  },
+  "result": {
+    "scope": "supplied_reference_profile_only",
+    "claude_status": "unavailable",
+    "status": "reference_signal_not_detected",
+    "profile_fingerprint": "d32694a9a8afbe87e9ea4368e0e8d53f2f3521361cfbc1cf056866a0fe54720b",
+    "tokenizer_id": "synthetic-uniform-1024-v1",
+    "input_tokens": 128,
+    "tokens_before_eos": 128,
+    "scored_contexts": 124,
+    "skipped_repeated_contexts": 0,
+    "minimum_contexts_policy": 64,
+    "mean_g_score": 0.4808467741935484,
+    "per_layer_mean": [
+      0.5241935483870968,
+      0.5161290322580645,
+      0.4596774193548387,
+      0.4596774193548387,
+      0.45161290322580644,
+      0.45161290322580644,
+      0.532258064516129,
+      0.45161290322580644
+    ],
+    "token_trace": [
+      {
+        "position": 4,
+        "token_id": 311,
+        "g_mean": 0.5,
+        "included": true
+      },
+      {
+        "position": 5,
+        "token_id": 508,
+        "g_mean": 0.625,
+        "included": true
+      },
+      {
+        "position": 6,
+        "token_id": 228,
+        "g_mean": 0.75,
+        "included": true
+      },
+      {
+        "position": 7,
+        "token_id": 742,
+        "g_mean": 0.5,
+        "included": true
+      },
+      {
+        "position": 8,
+        "token_id": 930,
+        "g_mean": 0.5,
+        "included": true
+      },
+      {
+        "position": 9,
+        "token_id": 890,
+        "g_mean": 0.25,
+        "included": true
+      },
+      {
+        "position": 10,
+        "token_id": 766,
+        "g_mean": 0.5,
+        "included": true
+      },
+      {
+        "position": 11,
+        "token_id": 478,
+        "g_mean": 0.625,
+        "included": true
+      },
+      {
+        "position": 12,
+        "token_id": 19,
+        "g_mean": 0.625,
+        "included": true
+      },
+      {
+        "position": 13,
+        "token_id": 979,
+        "g_mean": 0.75,
+        "included": true
+      },
+      {
+        "position": 14,
+        "token_id": 971,
+        "g_mean": 0.375,
+        "included": true
+      },
+      {
+        "position": 15,
+        "token_id": 593,
+        "g_mean": 0.5,
+        "included": true
+      },
+      {
+        "position": 16,
+        "token_id": 362,
+        "g_mean": 0.625,
+        "included": true
+      },
+      {
+        "position": 17,
+        "token_id": 466,
+        "g_mean": 0.375,
+        "included": true
+      },
+      {
+        "position": 18,
+        "token_id": 533,
+        "g_mean": 0.375,
+        "included": true
+      },
+      {
+        "position": 19,
+        "token_id": 660,
+        "g_mean": 0.625,
+        "included": true
+      },
+      {
+        "position": 20,
+        "token_id": 903,
+        "g_mean": 0.25,
+        "included": true
+      },
+      {
+        "position": 21,
+        "token_id": 718,
+        "g_mean": 0.5,
+        "included": true
+      },
+      {
+        "position": 22,
+        "token_id": 390,
+        "g_mean": 0.5,
+        "included": true
+      },
+      {
+        "position": 23,
+        "token_id": 785,
+        "g_mean": 0.375,
+        "included": true
+      },
+      {
+        "position": 24,
+        "token_id": 189,
+        "g_mean": 0.75,
+        "included": true
+      },
+      {
+        "position": 25,
+        "token_id": 837,
+        "g_mean": 0.25,
+        "included": true
+      },
+      {
+        "position": 26,
+        "token_id": 512,
+        "g_mean": 0.375,
+        "included": true
+      },
+      {
+        "position": 27,
+        "token_id": 567,
+        "g_mean": 0.375,
+        "included": true
+      },
+      {
+        "position": 28,
+        "token_id": 971,
+        "g_mean": 0.375,
+        "included": true
+      },
+      {
+        "position": 29,
+        "token_id": 152,
+        "g_mean": 0.5,
+        "included": true
+      },
+      {
+        "position": 30,
+        "token_id": 282,
+        "g_mean": 0.625,
+        "included": true
+      },
+      {
+        "position": 31,
+        "token_id": 986,
+        "g_mean": 0.5,
+        "included": true
+      },
+      {
+        "position": 32,
+        "token_id": 580,
+        "g_mean": 0.375,
+        "included": true
+      },
+      {
+        "position": 33,
+        "token_id": 757,
+        "g_mean": 0.625,
+        "included": true
+      },
+      {
+        "position": 34,
+        "token_id": 306,
+        "g_mean": 0.5,
+        "included": true
+      },
+      {
+        "position": 35,
+        "token_id": 250,
+        "g_mean": 0.375,
+        "included": true
+      },
+      {
+        "position": 36,
+        "token_id": 900,
+        "g_mean": 0.5,
+        "included": true
+      },
+      {
+        "position": 37,
+        "token_id": 947,
+        "g_mean": 0.25,
+        "included": true
+      },
+      {
+        "position": 38,
+        "token_id": 349,
+        "g_mean": 0.75,
+        "included": true
+      },
+      {
+        "position": 39,
+        "token_id": 891,
+        "g_mean": 0.375,
+        "included": true
+      },
+      {
+        "position": 40,
+        "token_id": 493,
+        "g_mean": 0.625,
+        "included": true
+      },
+      {
+        "position": 41,
+        "token_id": 408,
+        "g_mean": 0.375,
+        "included": true
+      },
+      {
+        "position": 42,
+        "token_id": 304,
+        "g_mean": 0.25,
+        "included": true
+      },
+      {
+        "position": 43,
+        "token_id": 215,
+        "g_mean": 0.5,
+        "included": true
+      },
+      {
+        "position": 44,
+        "token_id": 9,
+        "g_mean": 0.125,
+        "included": true
+      },
+      {
+        "position": 45,
+        "token_id": 571,
+        "g_mean": 0.625,
+        "included": true
+      },
+      {
+        "position": 46,
+        "token_id": 431,
+        "g_mean": 0.625,
+        "included": true
+      },
+      {
+        "position": 47,
+        "token_id": 458,
+        "g_mean": 0.25,
+        "included": true
+      },
+      {
+        "position": 48,
+        "token_id": 956,
+        "g_mean": 0.5,
+        "included": true
+      },
+      {
+        "position": 49,
+        "token_id": 99,
+        "g_mean": 0.375,
+        "included": true
+      },
+      {
+        "position": 50,
+        "token_id": 365,
+        "g_mean": 0.625,
+        "included": true
+      },
+      {
+        "position": 51,
+        "token_id": 898,
+        "g_mean": 0.625,
+        "included": true
+      },
+      {
+        "position": 52,
+        "token_id": 103,
+        "g_mean": 0.375,
+        "included": true
+      },
+      {
+        "position": 53,
+        "token_id": 320,
+        "g_mean": 0.5,
+        "included": true
+      },
+      {
+        "position": 54,
+        "token_id": 952,
+        "g_mean": 0.5,
+        "included": true
+      },
+      {
+        "position": 55,
+        "token_id": 688,
+        "g_mean": 0.375,
+        "included": true
+      },
+      {
+        "position": 56,
+        "token_id": 312,
+        "g_mean": 0.75,
+        "included": true
+      },
+      {
+        "position": 57,
+        "token_id": 695,
+        "g_mean": 0.5,
+        "included": true
+      },
+      {
+        "position": 58,
+        "token_id": 175,
+        "g_mean": 0.75,
+        "included": true
+      },
+      {
+        "position": 59,
+        "token_id": 717,
+        "g_mean": 0.25,
+        "included": true
+      },
+      {
+        "position": 60,
+        "token_id": 695,
+        "g_mean": 0.875,
+        "included": true
+      },
+      {
+        "position": 61,
+        "token_id": 944,
+        "g_mean": 0.75,
+        "included": true
+      },
+      {
+        "position": 62,
+        "token_id": 594,
+        "g_mean": 0.375,
+        "included": true
+      },
+      {
+        "position": 63,
+        "token_id": 35,
+        "g_mean": 0.625,
+        "included": true
+      },
+      {
+        "position": 64,
+        "token_id": 16,
+        "g_mean": 0.375,
+        "included": true
+      },
+      {
+        "position": 65,
+        "token_id": 17,
+        "g_mean": 0.75,
+        "included": true
+      },
+      {
+        "position": 66,
+        "token_id": 930,
+        "g_mean": 0.375,
+        "included": true
+      },
+      {
+        "position": 67,
+        "token_id": 733,
+        "g_mean": 0.25,
+        "included": true
+      },
+      {
+        "position": 68,
+        "token_id": 297,
+        "g_mean": 0.5,
+        "included": true
+      },
+      {
+        "position": 69,
+        "token_id": 486,
+        "g_mean": 0.75,
+        "included": true
+      },
+      {
+        "position": 70,
+        "token_id": 822,
+        "g_mean": 0.25,
+        "included": true
+      },
+      {
+        "position": 71,
+        "token_id": 195,
+        "g_mean": 0.625,
+        "included": true
+      },
+      {
+        "position": 72,
+        "token_id": 34,
+        "g_mean": 0.625,
+        "included": true
+      },
+      {
+        "position": 73,
+        "token_id": 165,
+        "g_mean": 0.375,
+        "included": true
+      },
+      {
+        "position": 74,
+        "token_id": 993,
+        "g_mean": 0.625,
+        "included": true
+      },
+      {
+        "position": 75,
+        "token_id": 169,
+        "g_mean": 0.25,
+        "included": true
+      },
+      {
+        "position": 76,
+        "token_id": 423,
+        "g_mean": 0.5,
+        "included": true
+      },
+      {
+        "position": 77,
+        "token_id": 584,
+        "g_mean": 0.5,
+        "included": true
+      },
+      {
+        "position": 78,
+        "token_id": 604,
+        "g_mean": 0.5,
+        "included": true
+      },
+      {
+        "position": 79,
+        "token_id": 551,
+        "g_mean": 0.125,
+        "included": true
+      },
+      {
+        "position": 80,
+        "token_id": 117,
+        "g_mean": 0.5,
+        "included": true
+      },
+      {
+        "position": 81,
+        "token_id": 847,
+        "g_mean": 0.0,
+        "included": true
+      },
+      {
+        "position": 82,
+        "token_id": 481,
+        "g_mean": 0.5,
+        "included": true
+      },
+      {
+        "position": 83,
+        "token_id": 487,
+        "g_mean": 0.375,
+        "included": true
+      },
+      {
+        "position": 84,
+        "token_id": 657,
+        "g_mean": 0.625,
+        "included": true
+      },
+      {
+        "position": 85,
+        "token_id": 590,
+        "g_mean": 0.5,
+        "included": true
+      },
+      {
+        "position": 86,
+        "token_id": 637,
+        "g_mean": 0.625,
+        "included": true
+      },
+      {
+        "position": 87,
+        "token_id": 224,
+        "g_mean": 0.375,
+        "included": true
+      },
+      {
+        "position": 88,
+        "token_id": 913,
+        "g_mean": 0.5,
+        "included": true
+      },
+      {
+        "position": 89,
+        "token_id": 684,
+        "g_mean": 0.25,
+        "included": true
+      },
+      {
+        "position": 90,
+        "token_id": 460,
+        "g_mean": 0.5,
+        "included": true
+      },
+      {
+        "position": 91,
+        "token_id": 164,
+        "g_mean": 1.0,
+        "included": true
+      },
+      {
+        "position": 92,
+        "token_id": 167,
+        "g_mean": 0.625,
+        "included": true
+      },
+      {
+        "position": 93,
+        "token_id": 488,
+        "g_mean": 0.625,
+        "included": true
+      },
+      {
+        "position": 94,
+        "token_id": 913,
+        "g_mean": 0.5,
+        "included": true
+      },
+      {
+        "position": 95,
+        "token_id": 992,
+        "g_mean": 0.375,
+        "included": true
+      },
+      {
+        "position": 96,
+        "token_id": 680,
+        "g_mean": 0.625,
+        "included": true
+      },
+      {
+        "position": 97,
+        "token_id": 589,
+        "g_mean": 0.5,
+        "included": true
+      },
+      {
+        "position": 98,
+        "token_id": 395,
+        "g_mean": 0.625,
+        "included": true
+      },
+      {
+        "position": 99,
+        "token_id": 166,
+        "g_mean": 0.5,
+        "included": true
+      },
+      {
+        "position": 100,
+        "token_id": 908,
+        "g_mean": 0.375,
+        "included": true
+      },
+      {
+        "position": 101,
+        "token_id": 106,
+        "g_mean": 0.625,
+        "included": true
+      },
+      {
+        "position": 102,
+        "token_id": 46,
+        "g_mean": 0.5,
+        "included": true
+      },
+      {
+        "position": 103,
+        "token_id": 1013,
+        "g_mean": 0.5,
+        "included": true
+      },
+      {
+        "position": 104,
+        "token_id": 1014,
+        "g_mean": 0.125,
+        "included": true
+      },
+      {
+        "position": 105,
+        "token_id": 622,
+        "g_mean": 0.625,
+        "included": true
+      },
+      {
+        "position": 106,
+        "token_id": 797,
+        "g_mean": 0.125,
+        "included": true
+      },
+      {
+        "position": 107,
+        "token_id": 515,
+        "g_mean": 0.375,
+        "included": true
+      },
+      {
+        "position": 108,
+        "token_id": 250,
+        "g_mean": 0.625,
+        "included": true
+      },
+      {
+        "position": 109,
+        "token_id": 893,
+        "g_mean": 0.625,
+        "included": true
+      },
+      {
+        "position": 110,
+        "token_id": 194,
+        "g_mean": 0.375,
+        "included": true
+      },
+      {
+        "position": 111,
+        "token_id": 454,
+        "g_mean": 0.5,
+        "included": true
+      },
+      {
+        "position": 112,
+        "token_id": 91,
+        "g_mean": 0.5,
+        "included": true
+      },
+      {
+        "position": 113,
+        "token_id": 679,
+        "g_mean": 0.75,
+        "included": true
+      },
+      {
+        "position": 114,
+        "token_id": 648,
+        "g_mean": 0.125,
+        "included": true
+      },
+      {
+        "position": 115,
+        "token_id": 209,
+        "g_mean": 0.5,
+        "included": true
+      },
+      {
+        "position": 116,
+        "token_id": 830,
+        "g_mean": 0.625,
+        "included": true
+      },
+      {
+        "position": 117,
+        "token_id": 1023,
+        "g_mean": 0.125,
+        "included": true
+      },
+      {
+        "position": 118,
+        "token_id": 17,
+        "g_mean": 0.25,
+        "included": true
+      },
+      {
+        "position": 119,
+        "token_id": 71,
+        "g_mean": 0.25,
+        "included": true
+      },
+      {
+        "position": 120,
+        "token_id": 246,
+        "g_mean": 0.375,
+        "included": true
+      },
+      {
+        "position": 121,
+        "token_id": 602,
+        "g_mean": 0.5,
+        "included": true
+      },
+      {
+        "position": 122,
+        "token_id": 822,
+        "g_mean": 0.75,
+        "included": true
+      },
+      {
+        "position": 123,
+        "token_id": 933,
+        "g_mean": 0.25,
+        "included": true
+      },
+      {
+        "position": 124,
+        "token_id": 207,
+        "g_mean": 0.25,
+        "included": true
+      },
+      {
+        "position": 125,
+        "token_id": 261,
+        "g_mean": 0.375,
+        "included": true
+      },
+      {
+        "position": 126,
+        "token_id": 907,
+        "g_mean": 0.75,
+        "included": true
+      },
+      {
+        "position": 127,
+        "token_id": 602,
+        "g_mean": 0.625,
+        "included": true
+      }
+    ],
+    "trace_truncated": false,
+    "empirical_tail_rank": 0.905,
+    "calibration_note": "Valid only for the supplied null population, fixed profile and single test",
+    "alpha": 0.01,
+    "calibration_samples": 199,
+    "calibration_population": "Synthetic IID uniform integer tokens in [0,1023], length 128; seed range 10000:10199"
+  }
+}
