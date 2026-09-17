@@ -4,6 +4,13 @@
 
 ## What the sources actually establish
 
+**2026-09-17 follow-up:** [Russian research update](research/2026-09-17-search.ru.md)
+and [independent recount of a public paired GPT-2 dataset](research/public-pair-audit-2026-09-17/README.md).
+The recount reproduces 9/12 prompt-group rankings but only 47/96 correct isolated
+file decisions at the fixed zero threshold. No live Claude answers or keys were
+obtained. Fable 5.1 documentation now gives a model-specific watermark statement;
+the newly reviewed TTP-Detect method requires paired controls/provider cooperation.
+
 | Primary source | Finding | Consequence for this project |
 | --- | --- | --- |
 | [Anthropic: text watermark](https://www.anthropic.com/news/claude-text-watermark), updated 2026-09-01 | Describes a SynthID-Text variant and a detection API in private preview; the article does not disclose its production key/profile. | Keep Claude verification unavailable. An API access application is not access already granted. |

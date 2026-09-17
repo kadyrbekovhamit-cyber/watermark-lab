@@ -1,0 +1,952 @@
+{
+  "scope": "reproduction_of_one_public_GPT2_reference_instance",
+  "claude_status": "unavailable",
+  "key_recovered": false,
+  "live_model_calls": 0,
+  "model_weights_downloaded": false,
+  "source": {
+    "repository": "jensabrahamsson/text-watermark-laboratory",
+    "commit": "989064945295141dbc85b8acbc3a9026f7827a83",
+    "license": "MIT",
+    "executable_code_run": "reviewed pure definitions for parity only"
+  },
+  "tokenizer": {
+    "model_weights_downloaded": false,
+    "repository": "openai-community/gpt2",
+    "revision": "607a30d783dfa663caf39e06633721c8d4cfcd7e",
+    "url": "https://huggingface.co/openai-community/gpt2/resolve/607a30d783dfa663caf39e06633721c8d4cfcd7e/tokenizer.json",
+    "bytes": 1355256,
+    "sha256": "8414cab924d8b9b33013f0d221c5862f365ee9be39c5c2bfae8a5a9e970478a6",
+    "tokenizers_version": "0.23.2"
+  },
+  "prompt_families": 12,
+  "files": 96,
+  "token_count_range": [
+    126,
+    128
+  ],
+  "generation_count_checks": [
+    {
+      "file": "01-harbour-marked.txt",
+      "generation_metadata_tokens": 128,
+      "retokenized_text_tokens": 126,
+      "match": false
+    },
+    {
+      "file": "01-harbour-unmarked-gen.txt",
+      "generation_metadata_tokens": 128,
+      "retokenized_text_tokens": 128,
+      "match": true
+    },
+    {
+      "file": "02-night-bus-marked.txt",
+      "generation_metadata_tokens": 128,
+      "retokenized_text_tokens": 128,
+      "match": true
+    },
+    {
+      "file": "02-night-bus-unmarked-gen.txt",
+      "generation_metadata_tokens": 128,
+      "retokenized_text_tokens": 128,
+      "match": true
+    },
+    {
+      "file": "03-library-marked.txt",
+      "generation_metadata_tokens": 128,
+      "retokenized_text_tokens": 128,
+      "match": true
+    },
+    {
+      "file": "03-library-unmarked-gen.txt",
+      "generation_metadata_tokens": 128,
+      "retokenized_text_tokens": 128,
+      "match": true
+    },
+    {
+      "file": "04-market-marked.txt",
+      "generation_metadata_tokens": 128,
+      "retokenized_text_tokens": 128,
+      "match": true
+    },
+    {
+      "file": "04-market-unmarked-gen.txt",
+      "generation_metadata_tokens": 128,
+      "retokenized_text_tokens": 128,
+      "match": true
+    },
+    {
+      "file": "05-kitchen-marked.txt",
+      "generation_metadata_tokens": 128,
+      "retokenized_text_tokens": 128,
+      "match": true
+    },
+    {
+      "file": "05-kitchen-unmarked-gen.txt",
+      "generation_metadata_tokens": 128,
+      "retokenized_text_tokens": 128,
+      "match": true
+    },
+    {
+      "file": "06-station-marked.txt",
+      "generation_metadata_tokens": 128,
+      "retokenized_text_tokens": 128,
+      "match": true
+    },
+    {
+      "file": "06-station-unmarked-gen.txt",
+      "generation_metadata_tokens": 128,
+      "retokenized_text_tokens": 128,
+      "match": true
+    },
+    {
+      "file": "07-rain-marked.txt",
+      "generation_metadata_tokens": 128,
+      "retokenized_text_tokens": 128,
+      "match": true
+    },
+    {
+      "file": "07-rain-unmarked-gen.txt",
+      "generation_metadata_tokens": 128,
+      "retokenized_text_tokens": 128,
+      "match": true
+    },
+    {
+      "file": "08-letter-marked.txt",
+      "generation_metadata_tokens": 128,
+      "retokenized_text_tokens": 128,
+      "match": true
+    },
+    {
+      "file": "08-letter-unmarked-gen.txt",
+      "generation_metadata_tokens": 128,
+      "retokenized_text_tokens": 128,
+      "match": true
+    },
+    {
+      "file": "09-workshop-marked.txt",
+      "generation_metadata_tokens": 128,
+      "retokenized_text_tokens": 128,
+      "match": true
+    },
+    {
+      "file": "09-workshop-unmarked-gen.txt",
+      "generation_metadata_tokens": 128,
+      "retokenized_text_tokens": 128,
+      "match": true
+    },
+    {
+      "file": "10-office-marked.txt",
+      "generation_metadata_tokens": 128,
+      "retokenized_text_tokens": 128,
+      "match": true
+    },
+    {
+      "file": "10-office-unmarked-gen.txt",
+      "generation_metadata_tokens": 128,
+      "retokenized_text_tokens": 128,
+      "match": true
+    },
+    {
+      "file": "11-garden-marked.txt",
+      "generation_metadata_tokens": 128,
+      "retokenized_text_tokens": 128,
+      "match": true
+    },
+    {
+      "file": "11-garden-unmarked-gen.txt",
+      "generation_metadata_tokens": 128,
+      "retokenized_text_tokens": 126,
+      "match": false
+    },
+    {
+      "file": "12-ferry-queue-marked.txt",
+      "generation_metadata_tokens": 128,
+      "retokenized_text_tokens": 128,
+      "match": true
+    },
+    {
+      "file": "12-ferry-queue-unmarked-gen.txt",
+      "generation_metadata_tokens": 128,
+      "retokenized_text_tokens": 128,
+      "match": true
+    }
+  ],
+  "tokenization_note": "Published UTF-8 strings round-trip exactly; re-tokenized lengths need not equal original generation token counts. No token-ID provenance is inferred.",
+  "method": {
+    "history": 4,
+    "alpha": 0.5,
+    "backoff": "unigram_when_exact_context_absent",
+    "split": "leave_entire_prompt_family_out",
+    "isolated_threshold": 0,
+    "first_token_excluded": true,
+    "source_results_known_before_reproduction": true
+  },
+  "reference_parity": {
+    "sha256": "97acdac783f3a46201156085a3c549f967d00bc11fa9e5a36da624ddf762ebf2",
+    "scores_compared": 96,
+    "max_absolute_difference": 3.0531133177191805e-16,
+    "scope": "reviewed pure definitions only; full upstream package not run"
+  },
+  "results": {
+    "prompt_group_wins": 9,
+    "true_positive": 25,
+    "false_negative": 23,
+    "true_negative": 22,
+    "false_positive": 26,
+    "balanced_accuracy": 0.4895833333333333
+  },
+  "limitations": [
+    "Not production Claude or secret-key recovery",
+    "Descriptive reproduction; overlapping LOO fits and no new significance test",
+    "Published text is re-tokenized; generation itself was not rerun",
+    "Good prompt-group ranking does not imply reliable isolated-document classification"
+  ],
+  "folds": [
+    {
+      "prompt_family": "01-harbour",
+      "marked_mean": 0.005669259625329856,
+      "unmarked_mean": -0.01134788828276986,
+      "marked_group_ranks_above": true
+    },
+    {
+      "prompt_family": "02-night-bus",
+      "marked_mean": -0.011372726280844314,
+      "unmarked_mean": -0.050971318342750704,
+      "marked_group_ranks_above": true
+    },
+    {
+      "prompt_family": "03-library",
+      "marked_mean": 0.006589422304038603,
+      "unmarked_mean": -0.04379997686685574,
+      "marked_group_ranks_above": true
+    },
+    {
+      "prompt_family": "04-market",
+      "marked_mean": 0.06019209305169566,
+      "unmarked_mean": 0.020188259214107787,
+      "marked_group_ranks_above": true
+    },
+    {
+      "prompt_family": "05-kitchen",
+      "marked_mean": 0.10201178999878867,
+      "unmarked_mean": 0.024889064091508775,
+      "marked_group_ranks_above": true
+    },
+    {
+      "prompt_family": "06-station",
+      "marked_mean": -0.002290195746106803,
+      "unmarked_mean": 0.025531364382170303,
+      "marked_group_ranks_above": false
+    },
+    {
+      "prompt_family": "07-rain",
+      "marked_mean": 0.09822328375983831,
+      "unmarked_mean": 0.002275281597364315,
+      "marked_group_ranks_above": true
+    },
+    {
+      "prompt_family": "08-letter",
+      "marked_mean": 0.018223108323253835,
+      "unmarked_mean": -0.028200157878102632,
+      "marked_group_ranks_above": true
+    },
+    {
+      "prompt_family": "09-workshop",
+      "marked_mean": 0.0891866267654783,
+      "unmarked_mean": 0.07340887075176586,
+      "marked_group_ranks_above": true
+    },
+    {
+      "prompt_family": "10-office",
+      "marked_mean": -0.052417905102271706,
+      "unmarked_mean": 0.01924756374133918,
+      "marked_group_ranks_above": false
+    },
+    {
+      "prompt_family": "11-garden",
+      "marked_mean": -0.023843354163594028,
+      "unmarked_mean": -0.04744373422448079,
+      "marked_group_ranks_above": true
+    },
+    {
+      "prompt_family": "12-ferry-queue",
+      "marked_mean": -0.01190635614144658,
+      "unmarked_mean": -0.00666490471498558,
+      "marked_group_ranks_above": false
+    }
+  ],
+  "file_scores": [
+    {
+      "prompt_family": "01-harbour",
+      "group": "marked",
+      "draw": 1,
+      "tokens": 126,
+      "log_ratio": -0.024822701444908973
+    },
+    {
+      "prompt_family": "01-harbour",
+      "group": "marked",
+      "draw": 2,
+      "tokens": 128,
+      "log_ratio": 0.04368940086048989
+    },
+    {
+      "prompt_family": "01-harbour",
+      "group": "marked",
+      "draw": 3,
+      "tokens": 128,
+      "log_ratio": 0.01695535466570669
+    },
+    {
+      "prompt_family": "01-harbour",
+      "group": "marked",
+      "draw": 4,
+      "tokens": 128,
+      "log_ratio": -0.013145015579968184
+    },
+    {
+      "prompt_family": "01-harbour",
+      "group": "unmarked",
+      "draw": 1,
+      "tokens": 128,
+      "log_ratio": 0.05057898484679146
+    },
+    {
+      "prompt_family": "01-harbour",
+      "group": "unmarked",
+      "draw": 2,
+      "tokens": 128,
+      "log_ratio": -0.04275572369856334
+    },
+    {
+      "prompt_family": "01-harbour",
+      "group": "unmarked",
+      "draw": 3,
+      "tokens": 128,
+      "log_ratio": -0.08733568313389184
+    },
+    {
+      "prompt_family": "01-harbour",
+      "group": "unmarked",
+      "draw": 4,
+      "tokens": 128,
+      "log_ratio": 0.034120868854584284
+    },
+    {
+      "prompt_family": "02-night-bus",
+      "group": "marked",
+      "draw": 1,
+      "tokens": 128,
+      "log_ratio": -0.048065445091004765
+    },
+    {
+      "prompt_family": "02-night-bus",
+      "group": "marked",
+      "draw": 2,
+      "tokens": 128,
+      "log_ratio": -0.0032747982795169888
+    },
+    {
+      "prompt_family": "02-night-bus",
+      "group": "marked",
+      "draw": 3,
+      "tokens": 128,
+      "log_ratio": -0.0660882962126401
+    },
+    {
+      "prompt_family": "02-night-bus",
+      "group": "marked",
+      "draw": 4,
+      "tokens": 128,
+      "log_ratio": 0.0719376344597846
+    },
+    {
+      "prompt_family": "02-night-bus",
+      "group": "unmarked",
+      "draw": 1,
+      "tokens": 128,
+      "log_ratio": -0.10285376785561727
+    },
+    {
+      "prompt_family": "02-night-bus",
+      "group": "unmarked",
+      "draw": 2,
+      "tokens": 128,
+      "log_ratio": 0.06002261719646032
+    },
+    {
+      "prompt_family": "02-night-bus",
+      "group": "unmarked",
+      "draw": 3,
+      "tokens": 128,
+      "log_ratio": -0.08459866581907004
+    },
+    {
+      "prompt_family": "02-night-bus",
+      "group": "unmarked",
+      "draw": 4,
+      "tokens": 128,
+      "log_ratio": -0.07645545689277582
+    },
+    {
+      "prompt_family": "03-library",
+      "group": "marked",
+      "draw": 1,
+      "tokens": 128,
+      "log_ratio": 0.0007620390267081532
+    },
+    {
+      "prompt_family": "03-library",
+      "group": "marked",
+      "draw": 2,
+      "tokens": 128,
+      "log_ratio": -0.02974388448054043
+    },
+    {
+      "prompt_family": "03-library",
+      "group": "marked",
+      "draw": 3,
+      "tokens": 128,
+      "log_ratio": 0.04066315969506048
+    },
+    {
+      "prompt_family": "03-library",
+      "group": "marked",
+      "draw": 4,
+      "tokens": 128,
+      "log_ratio": 0.014676374974926206
+    },
+    {
+      "prompt_family": "03-library",
+      "group": "unmarked",
+      "draw": 1,
+      "tokens": 128,
+      "log_ratio": -0.10454119881434124
+    },
+    {
+      "prompt_family": "03-library",
+      "group": "unmarked",
+      "draw": 2,
+      "tokens": 128,
+      "log_ratio": -0.09681316787830938
+    },
+    {
+      "prompt_family": "03-library",
+      "group": "unmarked",
+      "draw": 3,
+      "tokens": 128,
+      "log_ratio": -0.03909581134715949
+    },
+    {
+      "prompt_family": "03-library",
+      "group": "unmarked",
+      "draw": 4,
+      "tokens": 128,
+      "log_ratio": 0.06525027057238715
+    },
+    {
+      "prompt_family": "04-market",
+      "group": "marked",
+      "draw": 1,
+      "tokens": 128,
+      "log_ratio": 0.06128037770972854
+    },
+    {
+      "prompt_family": "04-market",
+      "group": "marked",
+      "draw": 2,
+      "tokens": 128,
+      "log_ratio": 0.09876901422970315
+    },
+    {
+      "prompt_family": "04-market",
+      "group": "marked",
+      "draw": 3,
+      "tokens": 128,
+      "log_ratio": -0.018083302100647056
+    },
+    {
+      "prompt_family": "04-market",
+      "group": "marked",
+      "draw": 4,
+      "tokens": 128,
+      "log_ratio": 0.098802282367998
+    },
+    {
+      "prompt_family": "04-market",
+      "group": "unmarked",
+      "draw": 1,
+      "tokens": 128,
+      "log_ratio": 0.08179000034133103
+    },
+    {
+      "prompt_family": "04-market",
+      "group": "unmarked",
+      "draw": 2,
+      "tokens": 128,
+      "log_ratio": -0.06684599330104325
+    },
+    {
+      "prompt_family": "04-market",
+      "group": "unmarked",
+      "draw": 3,
+      "tokens": 128,
+      "log_ratio": 0.04390606601926245
+    },
+    {
+      "prompt_family": "04-market",
+      "group": "unmarked",
+      "draw": 4,
+      "tokens": 128,
+      "log_ratio": 0.021902963796880906
+    },
+    {
+      "prompt_family": "05-kitchen",
+      "group": "marked",
+      "draw": 1,
+      "tokens": 128,
+      "log_ratio": 0.11201642618315236
+    },
+    {
+      "prompt_family": "05-kitchen",
+      "group": "marked",
+      "draw": 2,
+      "tokens": 128,
+      "log_ratio": 0.0862032084575171
+    },
+    {
+      "prompt_family": "05-kitchen",
+      "group": "marked",
+      "draw": 3,
+      "tokens": 128,
+      "log_ratio": -0.04021616484326298
+    },
+    {
+      "prompt_family": "05-kitchen",
+      "group": "marked",
+      "draw": 4,
+      "tokens": 128,
+      "log_ratio": 0.2500436901977482
+    },
+    {
+      "prompt_family": "05-kitchen",
+      "group": "unmarked",
+      "draw": 1,
+      "tokens": 128,
+      "log_ratio": 0.00936207781580426
+    },
+    {
+      "prompt_family": "05-kitchen",
+      "group": "unmarked",
+      "draw": 2,
+      "tokens": 128,
+      "log_ratio": 0.06284132346058649
+    },
+    {
+      "prompt_family": "05-kitchen",
+      "group": "unmarked",
+      "draw": 3,
+      "tokens": 126,
+      "log_ratio": 0.08654850022431573
+    },
+    {
+      "prompt_family": "05-kitchen",
+      "group": "unmarked",
+      "draw": 4,
+      "tokens": 128,
+      "log_ratio": -0.05919564513467139
+    },
+    {
+      "prompt_family": "06-station",
+      "group": "marked",
+      "draw": 1,
+      "tokens": 128,
+      "log_ratio": -0.04428057291579434
+    },
+    {
+      "prompt_family": "06-station",
+      "group": "marked",
+      "draw": 2,
+      "tokens": 128,
+      "log_ratio": -0.03554562381005399
+    },
+    {
+      "prompt_family": "06-station",
+      "group": "marked",
+      "draw": 3,
+      "tokens": 126,
+      "log_ratio": -0.0030162296322441408
+    },
+    {
+      "prompt_family": "06-station",
+      "group": "marked",
+      "draw": 4,
+      "tokens": 128,
+      "log_ratio": 0.07368164337366526
+    },
+    {
+      "prompt_family": "06-station",
+      "group": "unmarked",
+      "draw": 1,
+      "tokens": 128,
+      "log_ratio": 0.05544946822280331
+    },
+    {
+      "prompt_family": "06-station",
+      "group": "unmarked",
+      "draw": 2,
+      "tokens": 128,
+      "log_ratio": 0.03452431470458955
+    },
+    {
+      "prompt_family": "06-station",
+      "group": "unmarked",
+      "draw": 3,
+      "tokens": 128,
+      "log_ratio": -0.04169161237526241
+    },
+    {
+      "prompt_family": "06-station",
+      "group": "unmarked",
+      "draw": 4,
+      "tokens": 128,
+      "log_ratio": 0.05384328697655076
+    },
+    {
+      "prompt_family": "07-rain",
+      "group": "marked",
+      "draw": 1,
+      "tokens": 128,
+      "log_ratio": -0.008114772302825328
+    },
+    {
+      "prompt_family": "07-rain",
+      "group": "marked",
+      "draw": 2,
+      "tokens": 128,
+      "log_ratio": 0.19410681399947757
+    },
+    {
+      "prompt_family": "07-rain",
+      "group": "marked",
+      "draw": 3,
+      "tokens": 128,
+      "log_ratio": 0.08405337397551331
+    },
+    {
+      "prompt_family": "07-rain",
+      "group": "marked",
+      "draw": 4,
+      "tokens": 128,
+      "log_ratio": 0.12284771936718768
+    },
+    {
+      "prompt_family": "07-rain",
+      "group": "unmarked",
+      "draw": 1,
+      "tokens": 128,
+      "log_ratio": -0.09605016019163276
+    },
+    {
+      "prompt_family": "07-rain",
+      "group": "unmarked",
+      "draw": 2,
+      "tokens": 127,
+      "log_ratio": 0.10687972339393369
+    },
+    {
+      "prompt_family": "07-rain",
+      "group": "unmarked",
+      "draw": 3,
+      "tokens": 128,
+      "log_ratio": 0.0726958750471384
+    },
+    {
+      "prompt_family": "07-rain",
+      "group": "unmarked",
+      "draw": 4,
+      "tokens": 128,
+      "log_ratio": -0.07442431185998206
+    },
+    {
+      "prompt_family": "08-letter",
+      "group": "marked",
+      "draw": 1,
+      "tokens": 128,
+      "log_ratio": 0.12418633509944112
+    },
+    {
+      "prompt_family": "08-letter",
+      "group": "marked",
+      "draw": 2,
+      "tokens": 128,
+      "log_ratio": -0.014921702409860937
+    },
+    {
+      "prompt_family": "08-letter",
+      "group": "marked",
+      "draw": 3,
+      "tokens": 128,
+      "log_ratio": -0.006535148846078545
+    },
+    {
+      "prompt_family": "08-letter",
+      "group": "marked",
+      "draw": 4,
+      "tokens": 128,
+      "log_ratio": -0.0298370505504863
+    },
+    {
+      "prompt_family": "08-letter",
+      "group": "unmarked",
+      "draw": 1,
+      "tokens": 128,
+      "log_ratio": -0.04183652014121777
+    },
+    {
+      "prompt_family": "08-letter",
+      "group": "unmarked",
+      "draw": 2,
+      "tokens": 128,
+      "log_ratio": 0.02718145226722471
+    },
+    {
+      "prompt_family": "08-letter",
+      "group": "unmarked",
+      "draw": 3,
+      "tokens": 128,
+      "log_ratio": -0.09904675348519194
+    },
+    {
+      "prompt_family": "08-letter",
+      "group": "unmarked",
+      "draw": 4,
+      "tokens": 128,
+      "log_ratio": 0.0009011898467744799
+    },
+    {
+      "prompt_family": "09-workshop",
+      "group": "marked",
+      "draw": 1,
+      "tokens": 128,
+      "log_ratio": 0.09235696821385896
+    },
+    {
+      "prompt_family": "09-workshop",
+      "group": "marked",
+      "draw": 2,
+      "tokens": 128,
+      "log_ratio": 0.06756277615782381
+    },
+    {
+      "prompt_family": "09-workshop",
+      "group": "marked",
+      "draw": 3,
+      "tokens": 128,
+      "log_ratio": 0.0357640438264019
+    },
+    {
+      "prompt_family": "09-workshop",
+      "group": "marked",
+      "draw": 4,
+      "tokens": 128,
+      "log_ratio": 0.1610627188638285
+    },
+    {
+      "prompt_family": "09-workshop",
+      "group": "unmarked",
+      "draw": 1,
+      "tokens": 128,
+      "log_ratio": 0.05822514744008493
+    },
+    {
+      "prompt_family": "09-workshop",
+      "group": "unmarked",
+      "draw": 2,
+      "tokens": 128,
+      "log_ratio": 0.12070341188161592
+    },
+    {
+      "prompt_family": "09-workshop",
+      "group": "unmarked",
+      "draw": 3,
+      "tokens": 128,
+      "log_ratio": 0.0820427074188257
+    },
+    {
+      "prompt_family": "09-workshop",
+      "group": "unmarked",
+      "draw": 4,
+      "tokens": 128,
+      "log_ratio": 0.032664216266536907
+    },
+    {
+      "prompt_family": "10-office",
+      "group": "marked",
+      "draw": 1,
+      "tokens": 128,
+      "log_ratio": -0.1017468170949716
+    },
+    {
+      "prompt_family": "10-office",
+      "group": "marked",
+      "draw": 2,
+      "tokens": 128,
+      "log_ratio": -0.013998422175928765
+    },
+    {
+      "prompt_family": "10-office",
+      "group": "marked",
+      "draw": 3,
+      "tokens": 128,
+      "log_ratio": -0.11845770881354933
+    },
+    {
+      "prompt_family": "10-office",
+      "group": "marked",
+      "draw": 4,
+      "tokens": 128,
+      "log_ratio": 0.024531327675362872
+    },
+    {
+      "prompt_family": "10-office",
+      "group": "unmarked",
+      "draw": 1,
+      "tokens": 128,
+      "log_ratio": -0.06076066620507272
+    },
+    {
+      "prompt_family": "10-office",
+      "group": "unmarked",
+      "draw": 2,
+      "tokens": 128,
+      "log_ratio": 0.17298379024453214
+    },
+    {
+      "prompt_family": "10-office",
+      "group": "unmarked",
+      "draw": 3,
+      "tokens": 128,
+      "log_ratio": 0.028902593568820675
+    },
+    {
+      "prompt_family": "10-office",
+      "group": "unmarked",
+      "draw": 4,
+      "tokens": 128,
+      "log_ratio": -0.06413546264292339
+    },
+    {
+      "prompt_family": "11-garden",
+      "group": "marked",
+      "draw": 1,
+      "tokens": 128,
+      "log_ratio": -0.013461779609405075
+    },
+    {
+      "prompt_family": "11-garden",
+      "group": "marked",
+      "draw": 2,
+      "tokens": 128,
+      "log_ratio": -0.006918912166627379
+    },
+    {
+      "prompt_family": "11-garden",
+      "group": "marked",
+      "draw": 3,
+      "tokens": 128,
+      "log_ratio": -0.06081028674580037
+    },
+    {
+      "prompt_family": "11-garden",
+      "group": "marked",
+      "draw": 4,
+      "tokens": 128,
+      "log_ratio": -0.014182438132543282
+    },
+    {
+      "prompt_family": "11-garden",
+      "group": "unmarked",
+      "draw": 1,
+      "tokens": 126,
+      "log_ratio": -0.03756901935964064
+    },
+    {
+      "prompt_family": "11-garden",
+      "group": "unmarked",
+      "draw": 2,
+      "tokens": 128,
+      "log_ratio": -0.10776597008925251
+    },
+    {
+      "prompt_family": "11-garden",
+      "group": "unmarked",
+      "draw": 3,
+      "tokens": 128,
+      "log_ratio": -0.0630322749544475
+    },
+    {
+      "prompt_family": "11-garden",
+      "group": "unmarked",
+      "draw": 4,
+      "tokens": 128,
+      "log_ratio": 0.018592327505417502
+    },
+    {
+      "prompt_family": "12-ferry-queue",
+      "group": "marked",
+      "draw": 1,
+      "tokens": 128,
+      "log_ratio": 0.03438864406060827
+    },
+    {
+      "prompt_family": "12-ferry-queue",
+      "group": "marked",
+      "draw": 2,
+      "tokens": 128,
+      "log_ratio": 0.03995330291456002
+    },
+    {
+      "prompt_family": "12-ferry-queue",
+      "group": "marked",
+      "draw": 3,
+      "tokens": 128,
+      "log_ratio": 0.017158836921029562
+    },
+    {
+      "prompt_family": "12-ferry-queue",
+      "group": "marked",
+      "draw": 4,
+      "tokens": 126,
+      "log_ratio": -0.13912620846198417
+    },
+    {
+      "prompt_family": "12-ferry-queue",
+      "group": "unmarked",
+      "draw": 1,
+      "tokens": 128,
+      "log_ratio": 0.03783819964034569
+    },
+    {
+      "prompt_family": "12-ferry-queue",
+      "group": "unmarked",
+      "draw": 2,
+      "tokens": 128,
+      "log_ratio": -0.041711269594762575
+    },
+    {
+      "prompt_family": "12-ferry-queue",
+      "group": "unmarked",
+      "draw": 3,
+      "tokens": 128,
+      "log_ratio": -0.030463199648524415
+    },
+    {
+      "prompt_family": "12-ferry-queue",
+      "group": "unmarked",
+      "draw": 4,
+      "tokens": 128,
+      "log_ratio": 0.007676650742998978
+    }
+  ]
+}

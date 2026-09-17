@@ -1,0 +1,506 @@
+{
+  "repository": "jensabrahamsson/text-watermark-laboratory",
+  "commit": "989064945295141dbc85b8acbc3a9026f7827a83",
+  "records": [
+    {
+      "path": "LICENSE",
+      "bytes": 1073,
+      "sha256": "f33a894a1a8c20a2beab7a73b46cf8a313d54a24f11b2a871d766c0d3bee3e28"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/01-harbour-marked-2.txt",
+      "bytes": 533,
+      "sha256": "1811561ef277ef0b71ceebf5a01b64d3021e3280847d8159df0f044243593439"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/01-harbour-marked-3.txt",
+      "bytes": 526,
+      "sha256": "9e2853291c996df091d62624ce0a8b93e967ae73908dbdc757e00741efeb02b6"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/01-harbour-marked-4.txt",
+      "bytes": 528,
+      "sha256": "d34789f5e62704c9b018c23764b7f9da88a62e9793c5f1456f6f8897b7fc6b8a"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/01-harbour-marked.txt",
+      "bytes": 505,
+      "sha256": "c65b2c47519ef9e883e7da993d6c3ef7a73087699b716942e9142d1d578b1f54"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/01-harbour-unmarked-gen-2.txt",
+      "bytes": 520,
+      "sha256": "d477221f4cf842085f1f7b6a8e215fba9beed874a78cc53034b518b0ade554c3"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/01-harbour-unmarked-gen-3.txt",
+      "bytes": 541,
+      "sha256": "95a38c9125f741796223242012d8df0fc0595ebdfc1ddc815decfb1dea63d50a"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/01-harbour-unmarked-gen-4.txt",
+      "bytes": 551,
+      "sha256": "4ea956b31e5d801daf64f105567b2e9d82c453db9571a7a234996bb19eba7aaf"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/01-harbour-unmarked-gen.txt",
+      "bytes": 516,
+      "sha256": "e20bb1116c5388cd153d77176f25d2246f9cc837189431a9d2e7df7448a7dbdd"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/02-night-bus-marked-2.txt",
+      "bytes": 517,
+      "sha256": "0af347ecd7b91481b76d4422a38d35f92e17929624667afcae16412a8ba12f9c"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/02-night-bus-marked-3.txt",
+      "bytes": 517,
+      "sha256": "6653ea1ca84e332c413f6bafabd188addd952a5b3fc4e08337f19e91db961b87"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/02-night-bus-marked-4.txt",
+      "bytes": 522,
+      "sha256": "00bb164d1b63777376f3759dffc1bb7e95655e58e5f861aba06ec11e777d8adf"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/02-night-bus-marked.txt",
+      "bytes": 510,
+      "sha256": "888d0b6b5dc722a03ec7530c750f9a0deb3140b0e0f6a4af8a7541a7272ea03c"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/02-night-bus-unmarked-gen-2.txt",
+      "bytes": 551,
+      "sha256": "36c2e5e28689a6eea2a18ba32767c30082f2c852726b6c64e5bef1551c1a0d0f"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/02-night-bus-unmarked-gen-3.txt",
+      "bytes": 526,
+      "sha256": "f4e48107fa7d1714d083e51c667349f271b9731cfd43a63fab08a5248e147db2"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/02-night-bus-unmarked-gen-4.txt",
+      "bytes": 526,
+      "sha256": "66f41ea57f820f9afb6e315e370442a5613a46e8587525d007f1b3836b3b1ab2"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/02-night-bus-unmarked-gen.txt",
+      "bytes": 556,
+      "sha256": "475cdcde2f7d62921bd5f69de7decf61d1b0f3fb8ce4ba9a7f64adf92a5e2ec5"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/03-library-marked-2.txt",
+      "bytes": 523,
+      "sha256": "abea75f94b6fd0c06d9d4bf14176a64afb5b49b1cef96a6671b69efde95815a3"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/03-library-marked-3.txt",
+      "bytes": 479,
+      "sha256": "d65ada49ed364f42b20f22319b861028ad63600f7c829efda88477486afe3c25"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/03-library-marked-4.txt",
+      "bytes": 538,
+      "sha256": "de3810e737e4478a48f64a55fa71aad4c714cb4c232a90dba048eada1f86fe55"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/03-library-marked.txt",
+      "bytes": 539,
+      "sha256": "ae2bcde09dd0d02f71b8042d94420c25ff75dcfad7218a83058d8a288859f3ae"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/03-library-unmarked-gen-2.txt",
+      "bytes": 525,
+      "sha256": "c48f0c496cddef3e6ba9abd4f6efb29787d6a488856009f6a79b3d8bd813536c"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/03-library-unmarked-gen-3.txt",
+      "bytes": 510,
+      "sha256": "f4e0db935a0804f7d53cb23a74fd9545501a80ee58b97223e1460856fb0b041f"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/03-library-unmarked-gen-4.txt",
+      "bytes": 540,
+      "sha256": "61598febedd40e98948137027d564fc5db4944cba667c07b8eea45c5ccca0419"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/03-library-unmarked-gen.txt",
+      "bytes": 529,
+      "sha256": "0e44aefd6f5b27aa08ee851b99382ff4b90ae30112565a9bec26b85ae54ca318"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/04-market-marked-2.txt",
+      "bytes": 523,
+      "sha256": "6ee05d3c9432a9b4f101f4e6d09d1c93346dbdfb6f395d2adfa39558cb896f80"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/04-market-marked-3.txt",
+      "bytes": 454,
+      "sha256": "949097717d722eb76b47d5ff3fd55c42c558660ba0e1f27b9a4e6b3f1be67c5d"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/04-market-marked-4.txt",
+      "bytes": 511,
+      "sha256": "6859a351d8f5124c6774e9fff993762e1d2d09c5ac699f851c0f77346654b986"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/04-market-marked.txt",
+      "bytes": 497,
+      "sha256": "583605472f52610a46bdbe5ad401b9701988812fcee71059ce6c6cf50d3d8af8"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/04-market-unmarked-gen-2.txt",
+      "bytes": 534,
+      "sha256": "a318bcae8a7d827355b462e4abbeb6f1c7bb509dfedb8c3cd9a9060d22aee21b"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/04-market-unmarked-gen-3.txt",
+      "bytes": 516,
+      "sha256": "297cc432fca9a1b1cbeefb5dc82122f2204809a0d1d0c1096ca9b978da50342b"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/04-market-unmarked-gen-4.txt",
+      "bytes": 556,
+      "sha256": "57554f3add4129272fb2fad666f07cf5446e509ccbc0bbdd206ebbb6e3d0c53b"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/04-market-unmarked-gen.txt",
+      "bytes": 532,
+      "sha256": "5e21e1cfef25721acf9f4d9b41c271db086cf3d3cdeaad5bf551cc374f25b409"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/05-kitchen-marked-2.txt",
+      "bytes": 565,
+      "sha256": "46b15f94e89249f8a144f55745185fbaedfb45ba83a9459e23b5f282289fd2bf"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/05-kitchen-marked-3.txt",
+      "bytes": 518,
+      "sha256": "aac7ce1a700ff173477345c7e309e87e99894358a564f2c1823d24fd788506da"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/05-kitchen-marked-4.txt",
+      "bytes": 435,
+      "sha256": "78d35d33424bfdbd0fd80c22bc957fb6d788999c1aa07c432fe0193fb5656c7c"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/05-kitchen-marked.txt",
+      "bytes": 488,
+      "sha256": "6704388a9aee8e0eb1f9fac83f125c7e33dffcaee9878ae8f86146c1540db1cf"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/05-kitchen-unmarked-gen-2.txt",
+      "bytes": 503,
+      "sha256": "b35eca8e5f63cdcf3bc0554ed048ffeaf33dd7c863b3826e544ad3b9ba84cc46"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/05-kitchen-unmarked-gen-3.txt",
+      "bytes": 496,
+      "sha256": "e18133eb0f4492d4b1c8991d21b9cfd03d1aa57569ec2d0cda9ac27e0a7ad33a"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/05-kitchen-unmarked-gen-4.txt",
+      "bytes": 557,
+      "sha256": "17c1bcbaa3ba500749e5b30fa0425f0106233c960aba54ef456799744708a14e"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/05-kitchen-unmarked-gen.txt",
+      "bytes": 529,
+      "sha256": "f90776066944f44bfa82f0b2767a7723a1f00a14edc46f2a987a1efcac7d2329"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/06-station-marked-2.txt",
+      "bytes": 524,
+      "sha256": "cfe03b0a6539343209d751f50480745d402965ec3ab1a084cab1756b45d7b9e9"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/06-station-marked-3.txt",
+      "bytes": 514,
+      "sha256": "93ac2ce9b067952976c5277777741ac9eb48bafb96356586afb7eb5db1302375"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/06-station-marked-4.txt",
+      "bytes": 557,
+      "sha256": "a8ce195e9b2fc4f0484fb563624bfb1ed4c6b4d681c587a9a6c344c9176759e9"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/06-station-marked.txt",
+      "bytes": 473,
+      "sha256": "361a3ef18ddc8a3ce4e8220c07af3d950d23384bbf3339a7e5bccb4baf542400"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/06-station-unmarked-gen-2.txt",
+      "bytes": 548,
+      "sha256": "d94eb136c2ba43244693815e44b2270a42876f3cfa7688bd278b191df8b31c42"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/06-station-unmarked-gen-3.txt",
+      "bytes": 519,
+      "sha256": "c873ddd67aeceafee10b3ab0152df5798e0e17a905283e08286cd1f2ce9af280"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/06-station-unmarked-gen-4.txt",
+      "bytes": 619,
+      "sha256": "67108fc4b3cfefb332c5b4b3b5e3e57883ea7852f4090070c9480b0b744b3740"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/06-station-unmarked-gen.txt",
+      "bytes": 533,
+      "sha256": "8cff6984a437cb766f7809dc9b3b109f08db5e9e123aa6a6e3e0aec236655c12"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/07-rain-marked-2.txt",
+      "bytes": 471,
+      "sha256": "5697f3925060a088e45dbb002cc914cd32d3475db137169a36b97afeaaebe4d0"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/07-rain-marked-3.txt",
+      "bytes": 511,
+      "sha256": "f4fbe4a06506081fd99f0c259ae3d0f1c3ac82bcdfd546ebee95db37501c15e5"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/07-rain-marked-4.txt",
+      "bytes": 542,
+      "sha256": "fa173d2e9f7d1a13159c29986f6e6a733e2ec46788311ac53f6df6492476df7b"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/07-rain-marked.txt",
+      "bytes": 552,
+      "sha256": "c06776cfb3d7037c9760bb27b3222a67f4962c68df12b7512650ae5ab4062295"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/07-rain-unmarked-gen-2.txt",
+      "bytes": 536,
+      "sha256": "f7d63ea36185ba0d8b8ab1e78c0e91554320ba724043c30e7ce55f2c2c3718d7"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/07-rain-unmarked-gen-3.txt",
+      "bytes": 482,
+      "sha256": "b210f2c159d7223184a638c711732d71bdb9913101671e39e43d6c2c6b470882"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/07-rain-unmarked-gen-4.txt",
+      "bytes": 465,
+      "sha256": "f65f3ff012db3c70e900171384f8849a168afdb929deadaec12f9386c982b412"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/07-rain-unmarked-gen.txt",
+      "bytes": 498,
+      "sha256": "d392be04a00ecec2201ba1328702652a8a44dbbfd4485b28743caa16bc26170f"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/08-letter-marked-2.txt",
+      "bytes": 459,
+      "sha256": "dd3d14f812f96590642c1f73bead77519b0149910a662c28063e2a2f51970ed3"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/08-letter-marked-3.txt",
+      "bytes": 538,
+      "sha256": "9488726ea63d436c595cd36ee257fff864c44313f1fe9e22efdbb7326601c1a8"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/08-letter-marked-4.txt",
+      "bytes": 565,
+      "sha256": "8e76ab066627e008fc79e4826ab5f66b26e9302c34d8ab770449a1c7b747be0f"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/08-letter-marked.txt",
+      "bytes": 551,
+      "sha256": "42091ab4122ca41f4d34a7da1206ce214a3f8f5445f32af789b1a96122251203"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/08-letter-unmarked-gen-2.txt",
+      "bytes": 467,
+      "sha256": "b504a4e128ef1a0e5d2b410ba7c1d8cc8333223b5b710ccad1f93d0a0fde46dc"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/08-letter-unmarked-gen-3.txt",
+      "bytes": 569,
+      "sha256": "b4288cef3a7a5048ed35e76a46f595792b60cefa2b789e00cdd8ce8385ce443a"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/08-letter-unmarked-gen-4.txt",
+      "bytes": 560,
+      "sha256": "8c336ede32f84b52100e8723e31ee2c088d598026453e463927b77764886d596"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/08-letter-unmarked-gen.txt",
+      "bytes": 539,
+      "sha256": "36c740883d4510251ea0e1d105a8b252a1a38b33f0b690faf32f7d10429dd544"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/09-workshop-marked-2.txt",
+      "bytes": 476,
+      "sha256": "ff23b499e1e5a2bf7477233e3e39ecf1576a0b3254f20e597f58e92a5c07fe53"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/09-workshop-marked-3.txt",
+      "bytes": 535,
+      "sha256": "22b906c7981b77417b339d45171931f385dba4bb3e8cc7301be4d4aaf3978645"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/09-workshop-marked-4.txt",
+      "bytes": 499,
+      "sha256": "c842ece9c467107a2a2fc1ab656bfbb885752f024e1e1d8b0b7667d9018cde96"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/09-workshop-marked.txt",
+      "bytes": 477,
+      "sha256": "f509fee9bec395ac2cc0547669623b58b9d9516a6581b506deebd6fca01e67ab"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/09-workshop-unmarked-gen-2.txt",
+      "bytes": 517,
+      "sha256": "428183b76696f04b4a0b9940371d5db70822377b891ed0e939d5967ac9c317da"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/09-workshop-unmarked-gen-3.txt",
+      "bytes": 486,
+      "sha256": "5ed174ecdc2f6409e310a0e2706135aba2da56de00bc6ff6bfdb0b08e54b18e8"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/09-workshop-unmarked-gen-4.txt",
+      "bytes": 515,
+      "sha256": "d25a53c5eed85fac2c37a7b5c311948bb7b86032e505b4361c3765ab68b2cdd3"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/09-workshop-unmarked-gen.txt",
+      "bytes": 505,
+      "sha256": "1f33ae91f48d4a3d0efc022d2694b98367be15f1db377516f38f85d130b72879"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/10-office-marked-2.txt",
+      "bytes": 562,
+      "sha256": "8be5eb8d318a2fa71b8d19010468252e0fdb3732e7866b4bfbcc77b537877bed"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/10-office-marked-3.txt",
+      "bytes": 522,
+      "sha256": "c9e00395f2200c38719708dea663b1536d6ee95d8b6101e0e3d4160b91859101"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/10-office-marked-4.txt",
+      "bytes": 570,
+      "sha256": "544fdb93789626cb738f2951112000faed3e88ea317d6c1464e5aa258cbe69b8"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/10-office-marked.txt",
+      "bytes": 534,
+      "sha256": "598aaff41af440f8d96f8ac2ce428ade5c5500a204961bc88a866d51ad7c2732"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/10-office-unmarked-gen-2.txt",
+      "bytes": 477,
+      "sha256": "c721421160a9fc7d0eb1042694b64b809282defec602a9fcaaa2c1543f4ba5a5"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/10-office-unmarked-gen-3.txt",
+      "bytes": 585,
+      "sha256": "a8a28bf2a28a5267741f877e73a1aab15753d46f97d7eb6106a15c1bc6b89754"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/10-office-unmarked-gen-4.txt",
+      "bytes": 547,
+      "sha256": "d40a14246cb6afa73daed0cecbac120f1efd3b5aa03d26a4c0581b62d1249e26"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/10-office-unmarked-gen.txt",
+      "bytes": 554,
+      "sha256": "e425eabce8f7db3c29ce833c8f3bf3b6dcd72a82b55934b654a406bf6b7822ea"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/11-garden-marked-2.txt",
+      "bytes": 531,
+      "sha256": "6dee7338aa7a6a5457ce6230e66c30337b4594f1cc935cbec5e24316076639fd"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/11-garden-marked-3.txt",
+      "bytes": 537,
+      "sha256": "253cb3fdeaca2b3896023e3e87c97027f30263381258b0a652c87c9c6ab17a17"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/11-garden-marked-4.txt",
+      "bytes": 568,
+      "sha256": "ddc5f297153bdfbae99778326e9f5d35d819ed4fcedfa7876440ebc31cc8f9ff"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/11-garden-marked.txt",
+      "bytes": 508,
+      "sha256": "278c06599bd14fd1cf2a1ef34d855a50844697707ce6e07bbe683af1299a40af"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/11-garden-unmarked-gen-2.txt",
+      "bytes": 587,
+      "sha256": "70e7b4f224dfee63d0373254ee738e7df6c707c818bb200d1b66b2f0c7b8e8d3"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/11-garden-unmarked-gen-3.txt",
+      "bytes": 543,
+      "sha256": "c24280d37096ba1dffc6697fa90880d274fa8a3ef1aa7a9534e5dce9772efb1f"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/11-garden-unmarked-gen-4.txt",
+      "bytes": 443,
+      "sha256": "216c698f6d1353074620e9a50363e0e4db2f2a9ea8068aeb727c213c4e847682"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/11-garden-unmarked-gen.txt",
+      "bytes": 476,
+      "sha256": "53fbf33ef2789c60e2d0dadcd24fe3f2007c0fcf5cb47f0e9918d261e3f5dc30"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/12-ferry-queue-marked-2.txt",
+      "bytes": 553,
+      "sha256": "a3fd7d80abb440166ccc4d0d30c291cdd9cf2c2e783a8e3fd239c4aa8a3b6011"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/12-ferry-queue-marked-3.txt",
+      "bytes": 555,
+      "sha256": "49ed0874df18163ae6bfea560eb01c90e5145fc4daf7f2fd7cfda6f974e5c65b"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/12-ferry-queue-marked-4.txt",
+      "bytes": 560,
+      "sha256": "8cd3d7f44f57d9823573b1caecb9ebdf54fd49e08ff67593bfd08c8eba9bf36a"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/12-ferry-queue-marked.txt",
+      "bytes": 572,
+      "sha256": "0d4df496256c5830eb5bb223527a82ba4ed218eda4b9c3caf4c2170aae4e4492"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/12-ferry-queue-unmarked-gen-2.txt",
+      "bytes": 570,
+      "sha256": "0942aaaa246282fa18d1be3071f74929e5ce6e57860e59d855ba5bac4a66ba4e"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/12-ferry-queue-unmarked-gen-3.txt",
+      "bytes": 542,
+      "sha256": "69b8f281f2c035e9514b7b3298cd61a2af6f9b698713ea38b3ba9302129a2533"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/12-ferry-queue-unmarked-gen-4.txt",
+      "bytes": 553,
+      "sha256": "134a05276dffb70f68a4fbbd50ce2f35948a1aee010c177f1c8f6e47d0528308"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/12-ferry-queue-unmarked-gen.txt",
+      "bytes": 576,
+      "sha256": "32b3d3accc56a94c202aae15e465cdce2777fa3147328ec2f82ddbc62325fdf8"
+    },
+    {
+      "path": "experiments/2026-08-17-pair-12x4/results.json",
+      "bytes": 6895,
+      "sha256": "5517fdc03d73848ccf826093e38ecc805ddda39eef6c8e05da6df9bc0f25c115"
+    },
+    {
+      "path": "experiments/2026-09-01-ranking-isolated-honesty/readout.json",
+      "bytes": 6185,
+      "sha256": "7220f665b19cc5132fb26302ec0e3a3722761b69371ee24e36c29b1212d5c039"
+    },
+    {
+      "path": "src/text_watermark_tools/blind.py",
+      "bytes": 31065,
+      "sha256": "97acdac783f3a46201156085a3c549f967d00bc11fa9e5a36da624ddf762ebf2"
+    }
+  ]
+}
